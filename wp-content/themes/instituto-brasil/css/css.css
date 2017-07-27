@@ -1,0 +1,1030 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600');
+
+@font-face {
+    font-family: 'Museo700-Regular';
+    src: url('fonts/Museo700-Regular-webfont.woff2') format('woff2'),
+    url('fonts/Museo700-Regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Museo300-Regular';
+    src: url('fonts/Museo300-Regular-webfont.woff2') format('woff2'),
+    url('fonts/Museo300-Regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.w-nav-link a {
+    font-family: 'Museo700-Regular';
+}
+
+.menu-1 {
+    position: static;
+    height: 40px;
+    padding: 7px 0 20px 0;
+    background-color: #2b4c4d;
+}
+
+.container-1 {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.item-menu-1 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-family: 'Museo300-Regular';
+    color: #fff;
+    font-size: 0.8em;
+}
+
+.nav-menu-1 {
+    position: static;
+    margin-top: -8px;
+    float: left;
+}
+
+.menu-2 {
+    background-color: #fff;
+    -webkit-box-shadow: 0px 5px 15px -4px rgba(0, 0, 0, 0.29);
+    -moz-box-shadow: 0px 5px 15px -4px rgba(0, 0, 0, 0.29);
+    box-shadow: 0px 5px 15px -4px rgba(0, 0, 0, 0.29);
+    z-index: 1;
+}
+
+.nav-menu-2 {
+    width: auto;
+    margin-left: 70px;
+    float: left;
+    text-align: right;
+}
+
+.btn-padrao {
+    margin-top: 25px;
+    margin-bottom: 18px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    float: right;
+    border-radius: 6px;
+    background-image: -webkit-linear-gradient(270deg, #f9a915, #f7cb4d 52%, #f5c22f 100%, #f1c64a);
+    /* background-image: linear-gradient(180deg, #ffb736, #ffce75 52%, #eca92b 100%, #ffb736); */
+    font-family: 'Museo700-Regular';
+    color: #2b4c4d;
+    text-shadow: 1px 1px 3px #fff;
+    font-weight: 700;
+    border: 2px solid rgba(255, 212, 105, 0.76);
+    box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.25), 1px 1px 7px 2px rgb(246, 184, 31) inset
+}
+
+.btn-padrao.btn--mais-noticias {
+    display: block;
+    width: 12vmax;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 0px;
+    padding-left: 0px;
+    float: none;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.btn-padrao.btn-cadastre-se-receba-novidades {
+    width: 100%;
+    padding-right: 7px;
+    padding-bottom: 14px;
+    padding-left: 7px;
+    background-image: -webkit-linear-gradient(270deg, #ffb736, #ffce75 52%, #eca92b 100%, #ffb736);
+    background-image: linear-gradient(180deg, #ffb736, #ffce75 52%, #eca92b 100%, #ffb736);
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.item-menu-2 {
+    padding: 32px 30px;
+    float: left;
+    background-image: url('../images/LINHA.png');
+    background-position: 0px 50%;
+    background-size: auto;
+    background-repeat: no-repeat;
+    font-family: 'Museo700-Regular';
+    color: #166f72;
+    font-size: 1em;
+    line-height: 14px;
+    font-weight: 700;
+    letter-spacing: 0px;
+}
+
+.slide {
+    background-image: url('../images/TE_13.png');
+    background-position: 50% 50%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.slide.slide1 {
+    background-image: url('../images/layout_02.png');
+    background-position: 51% 0px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.slider {
+    height: 50vmax;
+}
+
+.slider.slider-parceiros {
+    height: 100%;
+    max-height: 18vmax;
+}
+
+.secao-principal {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.secao-principal.secao-instituto-pos-brasil {
+    background-color: #005b5c;
+}
+
+.secao-principal.secao-fique-ligado {
+    background-color: #f2f0e4;
+}
+
+.secao-principal.secao-chegou-hora-de-mudar {
+    height: 290px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: #f2f0e4;
+    background-image: url('../images/qq_10.png');
+    background-position: 0px 0px;
+    background-size: 100%;
+}
+
+.secao-principal.rodape {
+    padding-top: 60px;
+    padding-bottom: 36px;
+    background-color: #2f6263;
+}
+
+.secao-principal.secao-nossos-cursos {
+    background-color: #f9f7eb;
+}
+
+.titulo-secao {
+    padding-top: 8%;
+    padding-bottom: 3%;
+    font-family: 'Museo300-Regular';
+    color: #000;
+    font-size: 3.8em;
+    font-weight: 300;
+    text-align: center;
+}
+
+.titulo-secao.titulo-instituto-pos-brasil {
+    padding-top: 0%;
+    color: #f5c060;
+}
+
+.titulo-secao.titulo-fique-ligado {
+    padding-top: 0%;
+    color: #215b5c;
+}
+
+.center-container {
+    height: 100%;
+}
+
+.subtitulo-secao {
+    padding-right: 15%;
+    padding-left: 15%;
+    color: #fff;
+    font-size: 0.9em;
+    line-height: 16px;
+    text-align: center;
+}
+
+.subtitulo-secao.subtitulo-fique-ligado {
+    color: #a0a0a0;
+}
+
+.img-instituto-pos-brasil {
+    width: 20vmax;
+    height: 20vmax;
+    border-radius: 50%;
+    text-align: center;
+    border: 4px solid rgb(2, 126, 128);
+    box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.14);
+}
+
+.column-instituto-pos-brasil {
+    text-align: center;
+}
+
+.heading {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-family: 'Museo300-Regular';
+    color: #f5c060;
+    font-size: 23px;
+    font-weight: 300;
+}
+
+.text-block {
+    padding-right: 50px;
+    padding-left: 50px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.itens-instuto-pos-brasil {
+    margin-top: 7%;
+}
+
+.img-fique-ligado {
+    max-width: 100%;
+    text-align: left;
+}
+
+.column-fique-ligado {
+    padding-right: 5px;
+    padding-left: 5px;
+    text-align: center;
+}
+
+.itens-fique-ligado {
+    margin-top: 7%;
+}
+
+.itens-fique-ligado-single {
+    float: right;
+}
+
+.column-fique-ligado-single {
+    padding-right: 5px;
+    padding-left: 5px;
+    text-align: center;
+    float: right;
+    margin-bottom: 70px;
+
+}
+
+.column-fique-ligado-single:nth-of-type(1) {
+    padding-top: 20px;
+}
+
+.row-descricao-item-fique-ligado {
+    position: relative;
+    bottom: 15px;
+}
+
+.dia-item-fique-ligado {
+    position: relative;
+    z-index: 1;
+    width: 4.7vmax;
+    height: 4.45vmax;
+    border-radius: 4px;
+    background-color: #f6c54e;
+    text-align: center;
+}
+
+.mes-item-fique-ligado {
+    position: relative;
+    bottom: 6px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 4.7vmax;
+    height: 30.7px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    border-radius: 0px 0px 6px 6px;
+    background-color: #215b5c;
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 100;
+}
+
+.label-data-item-fique-ligado {
+    position: static;
+    width: 100%;
+    height: 99%;
+    max-height: 5vmax;
+}
+
+.important-text {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    color: #215b5c;
+    font-size: 2.5em;
+}
+
+.label-mes-item-gique-ligado {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    padding-bottom: 3px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+.label-descricao-item-fique-ligado {
+    display: block;
+    height: 100%;
+    max-height: 100%;
+    padding-top: 29px;
+    padding-right: 10px;
+    padding-left: 12px;
+    color: #215b5c;
+    font-size: 0.9em;
+    line-height: 14px;
+    font-weight: 700;
+    text-align: justify;
+}
+
+.column1-item-fique-ligado {
+    max-height: 7vmax;
+}
+
+.column2-item-fique-ligado {
+    max-height: 7vmax;
+}
+
+.row-nossos-cursos {
+    margin-top: 7%;
+}
+
+.image {
+    max-height: 18vmax;
+}
+
+.titulo-item-nossos-cursos {
+    margin-bottom: 3px;
+    color: #215b5c;
+    font-size: 33px;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Museo300-Regular';
+}
+
+.titulo-item-nossos-cursos-page {
+    margin-bottom: 3px;
+    color: #215b5c;
+    font-size: 1.3em;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Museo300-Regular';
+}
+
+.descrica-nossos-cursos {
+    height: 100%;
+    max-height: 6vmax;
+    padding-right: 26px;
+    padding-left: 27px;
+    color: #a0a0a0;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+}
+
+.image-copy {
+    max-height: 18vmax;
+}
+
+.image-copy.img-item-nossos-cursos {
+    display: block;
+    max-height: 22vmax;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.img-2 {
+    position: relative;
+    left: -144px;
+    display: block;
+    background-color: #f9f7eb;
+}
+
+.link-rodape {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-family: Montserrat, sans-serif;
+    color: #ffb736;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.label-titulo-item-rodape {
+    font-family: Montserrat, sans-serif;
+    color: #ffb736;
+    font-weight: 400;
+    text-align: center;
+}
+
+.label-titulo-item-rodape.fale-conosco {
+    text-align: left;
+}
+
+.label-telefone-rodape {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-family: Montserrat, sans-serif;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.important-text-2 {
+    font-weight: 400;
+}
+
+.text-rodape {
+    position: relative;
+    height: 100%;
+    max-height: 12vmax;
+    padding-top: 0px;
+    font-family: Montserrat, sans-serif;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 200;
+}
+
+.column1-rodape {
+    height: 100%;
+}
+
+.column {
+    text-align: right;
+}
+
+.row1-rodape {
+    margin-bottom: 74px;
+}
+
+.img-icon {
+    display: block;
+    width: 75%;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row-icon-rodape {
+    width: 100%;
+    padding-right: 76px;
+    padding-left: 74px;
+}
+
+.btn-inscreva-se {
+    position: relative;
+    left: 401px;
+    top: 187px;
+    right: 0px;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    background-color: transparent;
+    font-family: Montserrat, sans-serif;
+}
+
+.brand {
+    padding-top: 10px;
+}
+
+.menu-button-2 {
+    float: none;
+    clear: none;
+    text-align: left;
+}
+
+.img-arredondamento {
+    position: absolute;
+    margin-top: 88px;
+}
+
+.important-text-3 {
+    padding-bottom: 8px;
+}
+
+.image-2 {
+    width: 127px;
+}
+
+@media (max-width: 991px) {
+    .menu-1 {
+        height: 30px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .nav-menu-1 {
+        padding-bottom: 0px;
+    }
+
+    .btn-padrao.btn--mais-noticias {
+        width: 20vmax;
+        margin-top: 45px;
+    }
+
+    .secao-principal.secao-chegou-hora-de-mudar {
+        background-position: -213px 0px;
+        background-size: cover;
+    }
+
+    .dia-item-fique-ligado {
+        width: 5.5vmax;
+    }
+
+    .mes-item-fique-ligado {
+        width: 5.5vmax;
+    }
+
+    .important-text {
+        font-size: 2.2em;
+    }
+
+    .img-icon {
+        width: 80%;
+    }
+
+    .btn-inscreva-se {
+        left: 250px;
+        top: 225px;
+    }
+
+    .menu-button {
+        padding: 2px 5px 3px;
+        color: #fff;
+    }
+
+    .container-2 {
+        position: static;
+        overflow: visible;
+        margin-bottom: 0px;
+        padding-bottom: 8px;
+    }
+}
+
+@media (max-width: 767px) {
+    .nav-menu-2 {
+        margin-left: 30px;
+    }
+
+    .btn-padrao.btn--mais-noticias {
+        width: 25vmax;
+    }
+
+    .item-menu-2 {
+        padding-top: 32px;
+        padding-right: 15px;
+        padding-left: 20px;
+        float: left;
+    }
+
+    .secao-principal.secao-chegou-hora-de-mudar {
+        background-position: -338px 50%;
+        background-size: cover;
+    }
+
+    .row-descricao-item-fique-ligado {
+        top: -45px;
+    }
+
+    .dia-item-fique-ligado {
+        width: 9vmax;
+        height: 8.45vmax;
+    }
+
+    .mes-item-fique-ligado {
+        width: 9vmax;
+        height: 40.7px;
+    }
+
+    .label-data-item-fique-ligado {
+        height: 100%;
+        max-height: 9vmax;
+    }
+
+    .important-text {
+        -webkit-box-align: stretch;
+        -webkit-align-items: stretch;
+        -ms-flex-align: stretch;
+        align-items: stretch;
+    }
+
+    .label-mes-item-gique-ligado {
+        line-height: 25px;
+    }
+
+    .label-descricao-item-fique-ligado {
+        margin-top: 25px;
+        float: left;
+    }
+
+    .column1-item-fique-ligado {
+        max-height: 7vmax;
+    }
+
+    .img-icon {
+        max-width: 15%;
+        margin-bottom: 5px;
+    }
+
+    .btn-inscreva-se {
+        left: 123px;
+        top: 225px;
+        right: 0px;
+    }
+
+    .slide-nav {
+        padding-top: 10px;
+        float: none;
+    }
+}
+
+@media (max-width: 479px) {
+    .menu-1 {
+        height: 7vmax;
+    }
+
+    .item-menu-1 {
+        background-color: #2b4c4d;
+    }
+
+    .menu-2 {
+        position: static;
+        height: 17vmax;
+    }
+
+    .nav-menu-2 {
+        position: relative;
+        left: -4px;
+        display: block;
+        width: 220%;
+        max-width: 100vmax;
+        margin: 8px auto 0px;
+        padding-bottom: 0px;
+        float: left;
+    }
+
+    .btn-padrao {
+        position: relative;
+        left: 4px;
+        top: 0px;
+        bottom: 0px;
+        display: block;
+        width: 175px;
+        margin: 25px auto 8px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 16px;
+    }
+
+    .btn-padrao.btn--mais-noticias {
+        width: 60%;
+    }
+
+    .slide.slide1 {
+        background-position: 50% 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .secao-principal.secao-chegou-hora-de-mudar {
+        background-position: 50% 50%;
+        background-size: cover;
+    }
+
+    .row-descricao-item-fique-ligado {
+        bottom: 64px;
+    }
+
+    .dia-item-fique-ligado {
+        width: 8.7vmax;
+        height: 6.45vmax;
+    }
+
+    .mes-item-fique-ligado {
+        width: 8.7vmax;
+        height: 34.7px;
+    }
+
+    .important-text {
+        padding-top: 5px;
+        padding-bottom: 0px;
+        font-size: 2.5em;
+    }
+
+    .label-mes-item-gique-ligado {
+        font-size: 1em;
+    }
+
+    .label-descricao-item-fique-ligado {
+        height: auto;
+        margin-top: 40px;
+        padding-top: 0px;
+        padding-bottom: 15px;
+        float: left;
+        clear: right;
+        font-size: 0.9em;
+    }
+
+    .column1-item-fique-ligado {
+        max-height: 7vmax;
+    }
+
+    .column2-item-fique-ligado {
+        font-size: 14px;
+    }
+
+    .link-rodape {
+        padding-top: 6px;
+    }
+
+    .label-titulo-item-rodape.fale-conosco {
+        text-align: center;
+    }
+
+    .label-telefone-rodape {
+        text-align: center;
+    }
+
+    .text-rodape {
+        padding-top: 0px;
+    }
+
+    .img-icon {
+        position: static;
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        margin-right: 0px;
+        padding-right: 5px;
+        float: none;
+    }
+
+    .menu-button {
+        right: 0px;
+        padding: 8px;
+    }
+
+    .menu-button.w--open {
+        position: relative;
+        top: 1px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 0px;
+        background-color: #2b4c4d;
+    }
+
+    .icon {
+        color: #fff;
+    }
+
+    .menu-button-2 {
+        position: static;
+        right: -58px;
+        float: right;
+    }
+
+    .menu-button-2.w--open {
+        margin-top: 0px;
+        padding-top: 19px;
+    }
+
+    .row {
+        position: relative;
+        float: left;
+    }
+
+    .column-3 {
+        padding-top: 29px;
+    }
+
+    .column-4 {
+        padding-top: 8px;
+    }
+
+    .important-text-3 {
+        padding-right: 15px;
+        padding-left: 15px;
+        text-align: center;
+    }
+
+    .image-2 {
+        width: 100px;
+    }
+}
+
+/*------------CSS TABELAS -------------*/
+
+table {
+    max-width: 960px;
+    margin: 10px auto;
+}
+
+caption {
+    font-size: 1.6em;
+    font-weight: 400;
+    padding: 10px 0;
+}
+
+thead th {
+    font-weight: 400;
+    background: #34987b;
+    color: #FFF;
+}
+
+tr {
+    background: #f2f0e4;
+    border-bottom: 1px solid #FFF;
+    margin-bottom: 5px;
+}
+
+tr:nth-child(even) {
+    background: #fbf9eb;
+}
+
+th, td {
+    text-align: left;
+    padding: 20px;
+    font-weight: 300;
+}
+
+tfoot tr {
+    background: none;
+}
+
+tfoot td {
+    padding: 10px 2px;
+    font-size: 0.8em;
+    font-style: italic;
+    color: #8a97a0;
+}
+
+/*-------------CSS SINGLE-----------*/
+
+h1.titulo-single {
+
+    font-size: 3.5em;
+    color: #575757;
+    font-family: 'Museo700-Regular';
+}
+
+p.sub-titulo {
+    font-size: 1.4em;
+    line-height: normal;
+    color: #777777;
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #d6d6d6;
+    padding-top: 10px;
+    font-weight: lighter;
+}
+
+.data-postagem {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'Museo300-Regular';
+}
+
+p.conteudo-single {
+    font-size: 1.3em;
+    color: #777777;
+    font-weight: normal;
+    line-height: normal;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+
+}
+
+.slide-single-top {
+    margin-top: -37px;
+    padding-bottom: 35px;
+}
+
+h1.titulo-cursos-page {
+    text-align: center;
+    font-family: 'Museo300-Regular';
+    color: #215b5c;
+}
+
+p.subtitulo-page-cursos {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+.cursos-box {
+    padding: 30px 0 100px 0;
+    background-image: -webkit-linear-gradient(270deg, #f9a915, #f7cb4d 52%, #f5c22f 100%, #f1c64a);
+    /* background-image: linear-gradient(180deg, #ffb736, #ffce75 52%, #eca92b 100%, #ffb736); */
+    box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.25), 1px 1px 7px 2px rgb(246, 184, 31) inset
+}
+
+#box-cursos-carousel {
+    top: -95px;
+
+}
+
+.titulo-detalhes-cursos {
+    border-bottom: 1px dashed #215b5c;
+    margin-bottom: 3px;
+    color: #215b5c;
+    font-size: 1.3em;
+    text-align: left;
+    font-family: 'Museo700-Regular';
+}
+
+.nome-curso-page {
+    font-family: 'Museo300-Regular';
+    text-align: center;
+    font-size: 2.3em;
+    padding-bottom: 10px;
+    color: #215b5c;
+}
+
+.btn-curso-page {
+    margin-top: -25px;
+    margin-bottom: 18px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-radius: 6px;
+    background-image: -webkit-linear-gradient(270deg, #f9a915, #f7cb4d 52%, #f5c22f 100%, #f1c64a);
+    /* background-image: linear-gradient(180deg, #ffb736, #ffce75 52%, #eca92b 100%, #ffb736); */
+    font-family: 'Museo700-Regular';
+    color: #2b4c4d;
+    text-shadow: 1px 1px 3px #fff;
+    font-weight: 700;
+    border: 2px solid rgba(255, 212, 105, 0.76);
+    box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.25), 1px 1px 7px 2px rgb(246, 184, 31) inset;
+    margin-left: 45%;
+}
+
+.btn-curso-page-detalhes {
+    margin-top: 25px;
+    margin-bottom: 18px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-radius: 6px;
+    background-image: -webkit-linear-gradient(270deg, #f9a915, #f7cb4d 52%, #f5c22f 100%, #f1c64a);
+    /* background-image: linear-gradient(180deg, #ffb736, #ffce75 52%, #eca92b 100%, #ffb736); */
+    font-family: 'Museo700-Regular';
+    color: #2b4c4d;
+    text-shadow: 1px 1px 3px #fff;
+    font-weight: 700;
+    border: 2px solid rgba(255, 212, 105, 0.76);
+    box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.25), 1px 1px 7px 2px rgb(246, 184, 31) inset
+}
+
+.btn-curso-page-detalhes:nth-of-type(3) {
+    float: right;
+}
+
+.btn-curso-page-detalhes:nth-of-type(2) {
+    margin-left: 11%;
+}
