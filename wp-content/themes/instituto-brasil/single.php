@@ -20,7 +20,7 @@
                 <h1 class="titulo-single"><?php the_title() ?></h1>
                 <p class="sub-titulo"><?php the_excerpt() ?></p>
                 <div class="data-postagem"><i class="fa fa-clock-o" aria-hidden="true"></i>   publicado em <?php echo ucfirst(get_the_date('d \d\e F \d\e Y   \à\s H\hi')) ?></b></div>
-                <img class="imagem-destaque"><img src="<?php echo $thumb ?>?w=500&h=200"/>
+                <!--<img class="imagem-destaque"><img src="<?php echo $thumb ?>?w=500&h=200"/>-->
                 <p class="conteudo-single"><?php the_content() ?></p>
                 
 
@@ -106,12 +106,13 @@
 
 <?php endif; ?>
 </div></div></div>
- <div class="secao-nossos-cursos secao-principal">
+<div class="secao-nossos-cursos secao-principal">
         <div class="w-container">
             <div class="center-container">
                 <h1 class="titulo-fique-ligado titulo-secao"><?php the_field('titulo_sessao_3', get_page_id_by_slug('home')) ?></h1>
                 <p class="subtitulo-fique-ligado subtitulo-secao"><?php the_field('descricao_sessao_3', get_page_id_by_slug('home'), false) ?></p>
-                <div class="row-nossos-cursos w-row">
+
+                <div class="row-nossos-cursos w-row" id="carr_cursos">
 
                     <?php
                     $parametros_areas = [
@@ -127,23 +128,39 @@
                         $img = 'layout_03.png';
 
                         switch ($area->area_alias) {
-                            case 'aa' :
-                                $img = 'aa_05.png';
+                            case 'direito' :
+                                $img = 'direito.png';
                                 break;
-                            case 'bb' :
-                                $img = 'layout_07_07.png';
+                            case 'educacao' :
+                                $img = 'educacao.png';
                                 break;
-                            case 'cc' :
-                                $img = 'aa_05.png';
+                            case 'empresarial' :
+                                $img = 'administrativo.png';
+                                break;
+						  case 'saude' :
+                                $img = 'saude.png';
+                                break;
+						  case 'engenharia' :
+                                $img = 'engenharia.png';
+                                break;
+						  case 'ambiental' :
+                                $img = 'ambiental.png';
+                                break;
+						  case 'mba-executivo' :
+                                $img = 'excutivo.png';
+                                break;
+						  case 'area-social' :
+                                $img = 'social.png';
                                 break;
                         }
                         ?>
 
                         <a href="<?php echo get_page_link(get_page_id_by_slug('cursos')) . '?a=' . $area->cdcurso_area ?>"
-                           class="w-col w-col-3">
+                           class="w-col w-col-2">
                             <img class="image-copy img-item-nossos-cursos"
                                  src="<?php echo get_template_directory_uri() ?>/images/<?php echo $img ?>">
-                            <h1 class="titulo-item-nossos-cursos"><strong><?php echo $area->dscurso_area ?></strong></h1>
+                            <h1 class="titulo-item-nossos-cursos"><strong><?php echo $area->dscurso_area ?></strong>
+                            </h1>
                             <p class="descrica-nossos-cursos">
                                 <!--nada-->
                             </p>
@@ -152,6 +169,7 @@
                     <?php endforeach; ?>
 
                 </div>
+
             </div>
         </div>
     </div>

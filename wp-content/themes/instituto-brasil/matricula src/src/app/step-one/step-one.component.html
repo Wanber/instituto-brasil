@@ -1,0 +1,182 @@
+<div class="container">
+
+  <div class="row" style="margin-bottom: 20px;">
+    <div class="col-md-4">
+      <div class="card-panel teal">
+        <h5 class="center-align white-text">
+          <i class="fa fa-user"></i><br>
+          INFORMAÇÕES BÁSICAS
+        </h5>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card-panel grey">
+        <h5 class="center-align grey-text">
+          <i class="fa fa-credit-card"></i><br>
+          DADOS FINANCEIROS
+        </h5>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card-panel grey">
+        <h5 class="center-align grey-text">
+          <i class="fa fa-print"></i><br>
+          COMPROVANTE INSCRIÇÃO
+        </h5>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6">
+
+      <form #f="ngForm">
+
+      <div class="panel panel-primary">
+        <div class="panel-heading">FORMULÁRIO DE INSCRIÇÃO</div>
+          <div class="panel-body">
+
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label>* Tipo de Curso</label>
+                  <select name="cdtpcurso" class="form-control" [(ngModel)]="enrolment.cdtpcurso" required>
+                    <option *ngFor="let ct of courseType" value="{{ ct.cdtpcurso }}">{{ ct.nmtpcurso }}</option>
+                  </select>
+                </div>
+                <div class="form-group col-md-6">
+                  <label>* Área do Curso</label>
+                  <select name="cdcurso_area" class="form-control" [(ngModel)]="enrolment.cdcurso_area" (change)="listCourse()" required>
+                    <option value="null" selected disabled>Selecione a área</option>
+                    <option *ngFor="let ca of courseArea" value="{{ ca.cdcurso_area }}">{{ ca.dscurso_area }}</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="form-group col-md-12">
+                  <label>* Selecione o Curso</label>
+                  <select name="cdcurso" class="form-control" #cdcurso [(ngModel)]="enrolment.cdcurso" required (change)="listDiscipline(cdcurso.value)">
+                    <option value="null">Selecione o curso</option>
+                    <option *ngFor="let c of course" value="{{ c?.cdcurso }}">{{ c?.nmcurso }} - {{ c?.ch }} Horas</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="form-group col-md-12" [class.has-success]="cpf.valid && cpf.touched" [class.has-error]="!cpf.valid && cpf.touched">
+                    <div class="input-group">
+                      <span class="input-group-addon">CPF</span>
+                      <input type="text" [textMask]="{mask: cpfmask}" name="nucpfcnpj" class="form-control"
+                              [(ngModel)]="enrolment.nucpfcnpj" #cpf="ngModel" (change)="searchClient(cpf.value)"
+                              required placeholder="000.000.000-00">
+
+                      <span *ngIf="cpf.valid && cpf.touched" class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+                      <span *ngIf="!cpf.valid && cpf.touched" class="glyphicon glyphicon-remove form-control-feedback" aria-hidden="true"></span>
+                    </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="form-group col-md-12" [class.has-success]="cliente.valid && cliente.touched" [class.has-error]="!cliente.valid && cliente.touched">
+                  <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                    <input type="text" name="nmcliente" class="form-control" [(ngModel)]="enrolment.nmcliente"
+                           required placeholder="Informe o nome completo" #cliente="ngModel">
+
+                    <span *ngIf="cliente.valid && cliente.touched" class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+                    <span *ngIf="!cliente.valid && cliente.touched" class="glyphicon glyphicon-remove form-control-feedback" aria-hidden="true"></span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="form-group col-md-12" [class.has-success]="email.valid && email.touched" [class.has-error]="!email.valid && email.touched">
+                  <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                    <input type="email" name="email" class="form-control" [(ngModel)]="enrolment.email"
+                           required placeholder="Informe o e-mail" #email="ngModel">
+
+                    <span *ngIf="email.valid && email.touched" class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+                    <span *ngIf="!email.valid && email.touched" class="glyphicon glyphicon-remove form-control-feedback" aria-hidden="true"></span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="form-group col-md-6">
+                    <div class="input-group">
+                      <span class="input-group-addon"><i class="fa fa-phone"></i></span>
+                      <input type="text" [textMask]="{mask: phonefix}" name="telefone1" class="form-control"
+                             [(ngModel)]="enrolment.telefone1" placeholder="tel fixo">
+                    </div>
+                </div>
+                <div class="form-group col-md-6" [class.has-success]="celular.valid && celular.touched" [class.has-error]="!celular.valid && celular.touched">
+                  <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-mobile"></i></span>
+                    <input type="text" [textMask]="{mask: phonecel}" name="telefone2" class="form-control"
+                           [(ngModel)]="enrolment.telefone2" placeholder="celular" required #celular="ngModel">
+
+                    <span *ngIf="celular.valid && celular.touched" class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+                    <span *ngIf="!celular.valid && celular.touched" class="glyphicon glyphicon-remove form-control-feedback" aria-hidden="true"></span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="form-group col-md-12">
+                  <label>Como você conheceu o Instituto Prominas?</label>
+                  <select name="cdmidia" class="form-control" [(ngModel)]="enrolment.cdmidia" required>
+                    <option value="">Selecione</option>
+                    <option *ngFor="let m of midias" value="{{ m.cdmidia }}">{{ m.nmmidia }}</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox" name="optin" value="S" [(ngModel)]="enrolment.optin">  Ao marcar esta opção, você receberá novidades e promoções do Portal por E-mail, SMS e Telefone.
+                    </label>
+                  </div>
+                </div>
+              </div>
+
+          </div>
+        <div class="panel-footer">
+
+          <div class="row">
+            <div class="col-md-12">
+              <!--<a routerLink="/step-two" class="btn btn-padrao btn-lg" (click)="onClickAqui()">Próximo Passo <i class="fa fa-arrow-right"></i></a>-->
+              <a class="btn btn-padrao btn-lg" (click)="submitForm(f)">Próximo Passo <i class="fa fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div><!--end panel-->
+        <div class="alert alert-danger" *ngIf="message" innerHtml="{{ message }}"></div>
+        <div class="alert alert-danger" *ngIf="incompleta">Identificamos que você possui uma inscrição incompleta, <a routerLink="/step-two">clique aqui</a> para continuar sua inscrição.</div>
+      </form>
+
+    </div><!--col-md-6-->
+    <div class="col-md-6">
+     <table class="table">
+       <thead>
+          <tr>
+            <th>Módulo</th>
+            <th>Disciplina</th>
+            <th>Carga Horária</th>
+          </tr>
+       </thead>
+       <tbody>
+         <tr *ngFor="let disc of discipline">
+           <td style="text-align: center; width: 15%;">{{ disc.modulo }}</td>
+           <td>{{ disc.nome }}</td>
+           <td style="text-align: center; width: 20%;">{{ disc.carga_horaria }}h</td>
+         </tr>
+       </tbody>
+     </table>
+    </div>
+  </div>
+</div>
+

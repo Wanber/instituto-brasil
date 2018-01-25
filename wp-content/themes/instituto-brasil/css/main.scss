@@ -8,6 +8,35 @@ a {
   }
 }
 
+input[type=search] {
+  padding: 8px 10px 8px 10px;
+  color: #686868;
+  border-radius: 6px;
+  border: none;
+  width: 100%;
+}
+
+#newsletter {
+  padding: 8px 10px 8px 10px;
+  display: none;
+  color: #686868;
+  border-radius: 6px;
+  margin-bottom: 4px;
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -ms-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+select {
+  height: auto !important;
+}
+
 td.nowrap {
   white-space: nowrap;
 }

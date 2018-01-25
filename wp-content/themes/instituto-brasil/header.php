@@ -17,20 +17,11 @@
 
     <link rel="profile" href="http://gmpg.org/xfn/11"/>
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>"/>
-    <link href="<?php bloginfo('url'); ?>/wp-content/themes/instituto-brasil/css/css.css" rel="stylesheet" type="text/css">
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
     <!--<style>
         .w-container {
             max-width: 1170px !important;
         }
     </style>-->
-
-    <script type="text/javascript">WebFont.load({
-            google: {
-                families: ["Droid Sans:400,700", "Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"]
-            }
-        });
-    </script>
 
     <!-- [if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"
@@ -43,10 +34,25 @@
         }(window, document);
     </script>
 
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-105830278-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
     <?php wp_head(); ?>
 </head>
 
 <body class="body">
+
+<?php
+global $wp;
+$current_rel_uri = home_url(add_query_arg(array(), $wp->request)) . '/';
+?>
 
 <header>
 
@@ -60,36 +66,90 @@
                 'walker' => new CSS_Menu_Walker()
             ));
             ?>
-
-            <div class="menu-button w-nav-button">
-                <div class="icon w-icon-nav-menu"></div>
-            </div>
         </div>
     </div>
-    <div class="menu-2 w-nav" data-animation="default" data-collapse="tiny" data-duration="400">
-        <div class="w-container">
-            <a class="brand w-nav-brand" href="<?php echo get_site_url() ?>">
-                <img class="image-2"
-                     src="<?php echo get_template_directory_uri() ?>/images/logo-instituto-pos-brasil.png">
-            </a>
+    <div id="box-header">
+        <div class="menu-2 w-nav" data-animation="default" data-collapse="tiny" data-duration="400">
+            <div class="w-container">
+                <a class="brand w-nav-brand" href="<?php echo get_site_url() ?>">
+                    <img class="image-2"
+                         src="<?php echo get_template_directory_uri() ?>/images/logo-instituto-pos-brasil.png">
+                </a>
 
-            <?php
-            $menu_opts = array('menu' => 'Top principal', 'container' => 'nav', 'container_class' => 'nav-menu-2 w-clearfix w-nav-menu', 'container_id' => 'menu', 'menu_class' => 'w-list-unstyled list-inline', 'menu_id' => '',
-                'echo' => false, 'fallback_cb' => 'wp_page_menu', 'before' => '', 'after' => '', 'link_before' => '', 'link_after' => '', 'items_wrap' => '%3$s', 'item_spacing' => 'preserve',
-                'depth' => 0, 'walker' => '', 'theme_location' => '');
+                <?php
+                /*
+                wp_nav_menu(array(
+                    'menu' => 'Main Navigation',
+                    'container_id' => 'menu-p',
+                    'walker' => new CSS_Menu_Walker()
+                ));
+                */
+                ?>
 
-            echo str_replace('<a ', '<a class="item-menu-2 w-nav-link"', strip_tags(wp_nav_menu($menu_opts), '<nav><a><br>'));
-            ?>
+                <div id="menu-p" class="menu-menu-principal-container">
+                    <ul id="menu-menu-principal" class="menu">
 
-            <div class="menu-button-2 w-nav-button">
-                <div class="w-icon-nav-menu"></div>
+                        <?php $pagina_sobre = get_page_by_title('Instituto Pós Brasil') ?>
+
+                        <li id="menu-item-129" class="menu-item menu-item-type-post_type menu-item-object-page
+                        <?php echo $current_rel_uri == get_page_link($pagina_sobre->ID) ? 'active' : '' ?>">
+                            <a href="<?php echo get_page_link($pagina_sobre->ID) ?>"><span>Instituto<br>Pós Brasil</span></a>
+                        </li>
+
+                        <?php $pagina_cursos = get_page_by_title('Cursos') ?>
+
+                        <li id="menu-item-81"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-sub">
+                            <a href="<?php echo get_page_link($pagina_cursos->ID) ?>"><span>pós<br>graduação</span></a>
+                            <ul>
+
+                                <?php
+                                $parametros_areas = [
+                                    'select' => 'cdcurso_area,dscurso_area,area_alias'
+                                ];
+
+                                $GLOBALS['areas_curso'] = api_request('courses_areas', $parametros_areas);
+                                ?>
+
+                                <?php foreach ($GLOBALS['areas_curso'] as $area) : ?>
+
+                                    <?php $link = get_page_link(get_page_id_by_slug('cursos')) . $area->area_alias ?>
+
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom
+                                    <?php echo $current_rel_uri == $link ? 'active' : '' ?>">
+                                        <a href="<?php echo $link ?>">
+                                            <span><?php echo $area->dscurso_area ?></span>
+                                        </a>
+                                    </li>
+
+                                <?php endforeach; ?>
+
+                            </ul>
+                        </li>
+
+                        <?php $pagina_como_funciona = get_page_by_title('Como Funciona') ?>
+
+                        <li id="menu-item-126" class="menu-item menu-item-type-post_type menu-item-object-page
+                        <?php echo $current_rel_uri == get_page_link($pagina_como_funciona->ID) ? 'active' : '' ?>">
+                            <a href="<?php echo get_page_link($pagina_como_funciona->ID) ?>"><span>como<br>funciona</span></a>
+                        </li>
+
+                        <?php $pagina_matricula = get_page_by_title('Matrícula') ?>
+
+                        <li id="menu-item-132" class="menu-item menu-item-type-post_type menu-item-object-page
+                        <?php echo $current_rel_uri == get_page_link($pagina_matricula->ID) ? 'active' : '' ?>">
+                            <a href="<?php echo get_page_link($pagina_matricula->ID) ?>"><span>quero me<br>inscrever</span></a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <!-- Button trigger modal -->
+                <a class="btn-padrao w-button" data-toggle="modal" data-target="#portalModal">
+                    PORTAL DO ALUNO
+                </a>
+
             </div>
-
-            <!-- Button trigger modal -->
-            <a class="btn-padrao w-button" data-toggle="modal" data-target="#portalModal">
-                PORTAL DO ALUNO
-            </a>
-
         </div>
     </div>
 
@@ -108,6 +168,7 @@
                 </div>
                 <div class="modal-body">
 
+                    <!--
                     <div class="dropdown">
                         <button class="btn btn-default2 dropdown-toggle" type="button"
                                 id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
@@ -128,13 +189,17 @@
                                 Extensão
                             </a>
                         </div>
+                        -->
 
-                        <a href="<?php the_field('link_ava_novo_aluno', get_page_id_by_slug('home')) ?>"
-                           class="btn btn-default2"
-                           target="_blank">Novo aluno</a>
-                    </div>
+                    <a href="<?php the_field('link_ava_novo_aluno', get_page_id_by_slug('home')) ?>"
+                       class="btn btn-default2"
+                       target="_blank">Pós graduação</a>
 
+                    <a href="<?php the_field('link_ava_novo_aluno', get_page_id_by_slug('home')) ?>"
+                       class="btn btn-default2"
+                       target="_blank">Novo aluno</a>
                 </div>
+
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
                 </div>

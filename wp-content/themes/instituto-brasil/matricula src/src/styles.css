@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+.nav-tabs.nav-justified>.active>a, .nav-tabs.nav-justified>.active>a:focus, .nav-tabs.nav-justified>.active>a:hover {
+  background-color: #284d90;
+  color: #ffffff;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.card-panel {padding: 20px 30px;}
+.center-align { text-align: center}
+.grey {background-color: #dddddd}
+.teal {background-color: #1eafbf;}
+.grey-text {color: #999999}
+.white-text {color: #ffffff}
+.card-panel i {font-size: 3em; margin-bottom: 5px;}
+
+.btn-padrao {
+  color: #fff;
+  background-color: #1eafbf;
+  border-color: #1dc1d1;
+}
+
+/*Validação Formulário*/
+.ng-invalid.ng-touched:not(form) {border: 1px solid red}
+.ng-valid.ng-touched:not(form) {border: 1px solid green}

@@ -1,0 +1,1203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="397a390e-8495-4180-86b5-389fd3a32a94" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
+      <change beforePath="$PROJECT_DIR$/license.txt" afterPath="$PROJECT_DIR$/license.txt" />
+      <change beforePath="$PROJECT_DIR$/wp-config.php" afterPath="$PROJECT_DIR$/wp-config.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/languages/admin-pt_BR.mo" afterPath="$PROJECT_DIR$/wp-content/languages/admin-pt_BR.mo" />
+      <change beforePath="$PROJECT_DIR$/wp-content/languages/admin-pt_BR.po" afterPath="$PROJECT_DIR$/wp-content/languages/admin-pt_BR.po" />
+      <change beforePath="$PROJECT_DIR$/wp-content/languages/pt_BR.mo" afterPath="$PROJECT_DIR$/wp-content/languages/pt_BR.mo" />
+      <change beforePath="$PROJECT_DIR$/wp-content/languages/pt_BR.po" afterPath="$PROJECT_DIR$/wp-content/languages/pt_BR.po" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/accordions/accordions.php" afterPath="$PROJECT_DIR$/wp-content/plugins/accordions/accordions.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/accordions/assets/admin/ParaAdmin/css/ParaAdmin.css" afterPath="$PROJECT_DIR$/wp-content/plugins/accordions/assets/admin/ParaAdmin/css/ParaAdmin.css" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/accordions/assets/admin/ParaAdmin/js/ParaAdmin.js" afterPath="$PROJECT_DIR$/wp-content/plugins/accordions/assets/admin/ParaAdmin/js/ParaAdmin.js" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/accordions/assets/admin/css/style.css" afterPath="$PROJECT_DIR$/wp-content/plugins/accordions/assets/admin/css/style.css" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/accordions/assets/admin/js/color-picker.js" afterPath="$PROJECT_DIR$/wp-content/plugins/accordions/assets/admin/js/color-picker.js" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/accordions/assets/admin/js/scripts.js" afterPath="$PROJECT_DIR$/wp-content/plugins/accordions/assets/admin/js/scripts.js" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/accordions/assets/frontend/css/style.css" afterPath="$PROJECT_DIR$/wp-content/plugins/accordions/assets/frontend/css/style.css" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/accordions/assets/frontend/js/scripts.js" afterPath="$PROJECT_DIR$/wp-content/plugins/accordions/assets/frontend/js/scripts.js" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/accordions/assets/global/css/themes.style.css" afterPath="$PROJECT_DIR$/wp-content/plugins/accordions/assets/global/css/themes.style.css" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/accordions/assets/global/css/themesTabs.style.css" afterPath="$PROJECT_DIR$/wp-content/plugins/accordions/assets/global/css/themesTabs.style.css" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/accordions/includes/class-functions.php" afterPath="$PROJECT_DIR$/wp-content/plugins/accordions/includes/class-functions.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/accordions/includes/class-settings.php" afterPath="$PROJECT_DIR$/wp-content/plugins/accordions/includes/class-settings.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/accordions/includes/class-shortcodes.php" afterPath="$PROJECT_DIR$/wp-content/plugins/accordions/includes/class-shortcodes.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/accordions/includes/functions.php" afterPath="$PROJECT_DIR$/wp-content/plugins/accordions/includes/functions.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/accordions/includes/menu/help.php" afterPath="$PROJECT_DIR$/wp-content/plugins/accordions/includes/menu/help.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/accordions/includes/meta.php" afterPath="$PROJECT_DIR$/wp-content/plugins/accordions/includes/meta.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/accordions/index.php" afterPath="$PROJECT_DIR$/wp-content/plugins/accordions/index.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/accordions/languages/accordions-bn_BD.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/accordions/languages/accordions-bn_BD.mo" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/accordions/languages/accordions-bn_BD.po" afterPath="$PROJECT_DIR$/wp-content/plugins/accordions/languages/accordions-bn_BD.po" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/accordions/languages/accordions.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/accordions/languages/accordions.mo" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/accordions/languages/accordions.po" afterPath="$PROJECT_DIR$/wp-content/plugins/accordions/languages/accordions.po" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/accordions/readme.txt" afterPath="$PROJECT_DIR$/wp-content/plugins/accordions/readme.txt" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/accordions/templates/content.php" afterPath="$PROJECT_DIR$/wp-content/plugins/accordions/templates/content.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/accordions/templates/custom-css.php" afterPath="$PROJECT_DIR$/wp-content/plugins/accordions/templates/custom-css.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/accordions/templates/header.php" afterPath="$PROJECT_DIR$/wp-content/plugins/accordions/templates/header.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/accordions/templates/scripts.php" afterPath="$PROJECT_DIR$/wp-content/plugins/accordions/templates/scripts.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/accordions/templates/tabs-content.php" afterPath="$PROJECT_DIR$/wp-content/plugins/accordions/templates/tabs-content.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/accordions/templates/tabs-custom-css.php" afterPath="$PROJECT_DIR$/wp-content/plugins/accordions/templates/tabs-custom-css.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/accordions/templates/tabs-header.php" afterPath="$PROJECT_DIR$/wp-content/plugins/accordions/templates/tabs-header.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/accordions/templates/tabs-scripts.php" afterPath="$PROJECT_DIR$/wp-content/plugins/accordions/templates/tabs-scripts.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/accordions/templates/variables.php" afterPath="$PROJECT_DIR$/wp-content/plugins/accordions/templates/variables.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/acf.php" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/acf.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/assets/css/acf-field-group.css" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/assets/css/acf-field-group.css" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/assets/css/acf-global.css" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/assets/css/acf-global.css" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/assets/css/acf-input.css" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/assets/css/acf-input.css" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/assets/font/LICENSE.txt" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/assets/font/LICENSE.txt" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/assets/font/README.txt" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/assets/font/README.txt" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/assets/font/acf.eot" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/assets/font/acf.eot" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/assets/font/acf.svg" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/assets/font/acf.svg" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/assets/font/acf.ttf" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/assets/font/acf.ttf" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/assets/font/acf.woff" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/assets/font/acf.woff" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/assets/font/config.json" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/assets/font/config.json" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/assets/js/acf-field-group.js" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/assets/js/acf-field-group.js" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/assets/js/acf-field-group.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/assets/js/acf-field-group.min.js" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/assets/js/acf-input.js" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/assets/js/acf-input.js" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/assets/js/acf-input.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/assets/js/acf-input.min.js" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-ar.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-ar.mo" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-ar.po" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-ar.po" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-bg_BG.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-bg_BG.mo" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-bg_BG.po" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-bg_BG.po" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-cs_CZ.po" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-cs_CZ.po" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-de_CH.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-de_CH.mo" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-de_CH.po" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-de_CH.po" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-de_DE.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-de_DE.mo" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-de_DE.po" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-de_DE.po" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-de_DE_formal.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-de_DE_formal.mo" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-de_DE_formal.po" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-de_DE_formal.po" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-es_ES.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-es_ES.mo" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-es_ES.po" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-es_ES.po" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-fa_IR.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-fa_IR.mo" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-fa_IR.po" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-fa_IR.po" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-fi.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-fi.mo" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-fi.po" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-fi.po" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-fr_FR.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-fr_FR.mo" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-fr_FR.po" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-fr_FR.po" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-he_IL.po" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-he_IL.po" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-hu_HU.po" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-hu_HU.po" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-id_ID.po" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-id_ID.po" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-it_IT.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-it_IT.mo" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-it_IT.po" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-it_IT.po" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-ja.po" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-ja.po" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-nb_NO.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-nb_NO.mo" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-nb_NO.po" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-nb_NO.po" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-nl_NL.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-nl_NL.mo" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-nl_NL.po" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-nl_NL.po" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-pl_PL.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-pl_PL.mo" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-pl_PL.po" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-pl_PL.po" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-pt_BR.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-pt_BR.mo" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-pt_BR.po" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-pt_BR.po" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-pt_PT.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-pt_PT.mo" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-pt_PT.po" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-pt_PT.po" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-ro_RO.po" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-ro_RO.po" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-ru_RU.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-ru_RU.mo" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-ru_RU.po" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-ru_RU.po" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-sk_SK.po" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-sk_SK.po" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-sv_SE.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-sv_SE.mo" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-sv_SE.po" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-sv_SE.po" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-tr_TR.po" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-tr_TR.po" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-uk.po" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-uk.po" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-zh_CN.po" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf-zh_CN.po" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf.pot" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/lang/acf.pot" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/pro/acf-pro.php" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/pro/acf-pro.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/pro/assets/css/acf-pro-input.css" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/pro/assets/css/acf-pro-input.css" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/pro/assets/js/acf-pro-input.js" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/pro/assets/js/acf-pro-input.js" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/pro/assets/js/acf-pro-input.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/pro/assets/js/acf-pro-input.min.js" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/readme.txt" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/readme.txt" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/duplicate-post/compat/duplicate-post-jetpack.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/duplicate-post/compat/duplicate-post-wpml.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/duplicate-post/donate.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/duplicate-post/duplicate-post-admin.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/duplicate-post/duplicate-post-common.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/duplicate-post/duplicate-post-options.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/duplicate-post/duplicate-post.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/duplicate-post/duplicate-post.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/duplicate-post/gpl-2.0.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/duplicate-post/readme.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/kiwi-logo-carousel/custom-styles.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/kiwi-logo-carousel/images/icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/kiwi-logo-carousel/images/icon@2x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/kiwi-logo-carousel/kiwi_logo_carousel.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/kiwi-logo-carousel/kiwi_logo_carousel_admin.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/kiwi-logo-carousel/kiwi_logo_carousel_order.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/kiwi-logo-carousel/languages/kiwi-logo-carousel-cs_CZ.mo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/kiwi-logo-carousel/languages/kiwi-logo-carousel-cs_CZ.po" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/kiwi-logo-carousel/languages/kiwi-logo-carousel-es_ES.mo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/kiwi-logo-carousel/languages/kiwi-logo-carousel-es_ES.po" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/kiwi-logo-carousel/languages/kiwi-logo-carousel-fa_IR.mo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/kiwi-logo-carousel/languages/kiwi-logo-carousel-fa_IR.po" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/kiwi-logo-carousel/languages/kiwi-logo-carousel-id_ID.mo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/kiwi-logo-carousel/languages/kiwi-logo-carousel-id_ID.po" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/kiwi-logo-carousel/languages/kiwi-logo-carousel-nl_NL.mo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/kiwi-logo-carousel/languages/kiwi-logo-carousel-nl_NL.po" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/kiwi-logo-carousel/languages/kiwi-logo-carousel-sr_RS.mo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/kiwi-logo-carousel/languages/kiwi-logo-carousel-sr_RS.po" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/kiwi-logo-carousel/languages/kiwi-logo-carousel.pot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/kiwi-logo-carousel/readme.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/kiwi-logo-carousel/third-party/jquery.bxslider/images/bx_loader.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/kiwi-logo-carousel/third-party/jquery.bxslider/images/controls.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/kiwi-logo-carousel/third-party/jquery.bxslider/images/controls@2x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/kiwi-logo-carousel/third-party/jquery.bxslider/images/controls@3x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/kiwi-logo-carousel/third-party/jquery.bxslider/jquery.bxslider.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/kiwi-logo-carousel/third-party/jquery.bxslider/jquery.bxslider.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/kiwi-logo-carousel/third-party/jquery.bxslider/jquery.bxslider.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/kiwi-logo-carousel/third-party/jquery.bxslider/plugins/jquery.easing.1.3.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/kiwi-logo-carousel/third-party/jquery.bxslider/plugins/jquery.fitvids.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/kiwi-logo-carousel/third-party/jquery.bxslider/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/kiwi-logo-carousel/third-party/simple-page-ordering/simple-page-ordering.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/kiwi-logo-carousel/third-party/simple-page-ordering/simple-page-ordering.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/css/admin.css" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/css/admin.css" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/css/edit_layers.css" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/css/edit_layers.css" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/css/tipsy.css" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/css/tipsy.css" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/add_template.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/add_template.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/add_template_bg.jpg" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/add_template_bg.jpg" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/dotted_horizontal.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/dotted_horizontal.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/dotted_vertical.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/dotted_vertical.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/dummy.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/dummy.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/gridtile.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/gridtile.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/gridtile_3x3.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/gridtile_3x3.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/gridtile_3x3_white.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/gridtile_3x3_white.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/gridtile_white.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/gridtile_white.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/icon-all.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/icon-all.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/icon-button-layer.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/icon-button-layer.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/icon-edit.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/icon-edit.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/icon-image-layer.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/icon-image-layer.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/icon-plus.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/icon-plus.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/icon-shape-layer.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/icon-shape-layer.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/icon-text-layer.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/icon-text-layer.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/icon-trash.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/icon-trash.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/icon-video-layer.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/icon-video-layer.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/icon_html5.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/icon_html5.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/icon_vimeo.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/icon_vimeo.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/icon_youtube.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/icon_youtube.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/imac.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/imac.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/import_slider.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/import_slider.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/install_slider.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/install_slider.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/ipadair.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/ipadair.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/iphone.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/iphone.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/loader.gif" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/loader.gif" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/logo_small.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/logo_small.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/macbook.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/macbook.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/mainoptions/add_preset.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/mainoptions/add_preset.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/mainoptions/arrows.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/mainoptions/arrows.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/mainoptions/auto.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/mainoptions/auto.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/mainoptions/bullets.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/mainoptions/bullets.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/mainoptions/cssicon.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/mainoptions/cssicon.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/mainoptions/fullscreen.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/mainoptions/fullscreen.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/mainoptions/fullwidth.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/mainoptions/fullwidth.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/mainoptions/imageicon.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/mainoptions/imageicon.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/mainoptions/jqueryicon.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/mainoptions/jqueryicon.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/mainoptions/linktoslide.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/mainoptions/linktoslide.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/mainoptions/mini-customizeslide.jpg" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/mainoptions/mini-customizeslide.jpg" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/mainoptions/mini-editslide.jpg" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/mainoptions/mini-editslide.jpg" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/mainoptions/mini-implement.jpg" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/mainoptions/mini-implement.jpg" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/mainoptions/openclose.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/mainoptions/openclose.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/mainoptions/showimage.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/mainoptions/showimage.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/mainoptions/tabs.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/mainoptions/tabs.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/mainoptions/thumbnails.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/mainoptions/thumbnails.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/mainoptions/tp_uparrow.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/mainoptions/tp_uparrow.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/navigationeditor/tp_thumb.jpg" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/navigationeditor/tp_thumb.jpg" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/new_slider.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/new_slider.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/preview.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/preview.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/rs_center.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/rs_center.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/rs_rotate.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/rs_rotate.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/slidebg.jpg" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/slidebg.jpg" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/sliderpresets/carousel_full_rounded.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/sliderpresets/carousel_full_rounded.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/sliderpresets/carousel_thumbs_right_fullscreen.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/sliderpresets/carousel_thumbs_right_fullscreen.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/sliderpresets/cover_carousel_endless.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/sliderpresets/cover_carousel_endless.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/sliderpresets/cover_carousel_thumbs.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/sliderpresets/cover_carousel_thumbs.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/sliderpresets/flat_carousel.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/sliderpresets/flat_carousel.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/sliderpresets/flat_carousel_thumbs.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/sliderpresets/flat_carousel_thumbs.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/sliderpresets/flat_carousel_thumbs_left.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/sliderpresets/flat_carousel_thumbs_left.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/sliderpresets/scroll_fullscreen.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/sliderpresets/scroll_fullscreen.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/sliderpresets/slideshow_auto_layout.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/sliderpresets/slideshow_auto_layout.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/sliderpresets/thumb_auto1.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/sliderpresets/thumb_auto1.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/sliderpresets/thumbs_left_auto.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/sliderpresets/thumbs_left_auto.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/sliderpresets/thumbs_right_auto.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/sliderpresets/thumbs_right_auto.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/sliderpresets/wide_fullscreen.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/sliderpresets/wide_fullscreen.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/sliderselector/type_carousel.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/sliderselector/type_carousel.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/sliderselector/type_hero.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/sliderselector/type_hero.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/sliderselector/type_slider.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/sliderselector/type_slider.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/slidersources/tp_source_defa.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/slidersources/tp_source_defa.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/slidersources/tp_source_face.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/slidersources/tp_source_face.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/slidersources/tp_source_flic.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/slidersources/tp_source_flic.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/slidersources/tp_source_inst.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/slidersources/tp_source_inst.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/slidersources/tp_source_post.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/slidersources/tp_source_post.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/slidersources/tp_source_twit.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/slidersources/tp_source_twit.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/slidersources/tp_source_vime.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/slidersources/tp_source_vime.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/slidersources/tp_source_wooc.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/slidersources/tp_source_wooc.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/slidersources/tp_source_yout.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/slidersources/tp_source_yout.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/sources/fb.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/sources/fb.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/sources/fr.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/sources/fr.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/sources/ig.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/sources/ig.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/sources/post.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/sources/post.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/sources/revolution_slide1.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/sources/revolution_slide1.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/sources/revolution_slide2.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/sources/revolution_slide2.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/sources/tw.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/sources/tw.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/sources/vm.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/sources/vm.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/sources/wc.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/sources/wc.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/sources/yt.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/sources/yt.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/addlayer.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/addlayer.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/advancedcss.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/advancedcss.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/animate_in.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/animate_in.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/animate_out.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/animate_out.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/arrow_grey.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/arrow_grey.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/arrow_white.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/arrow_white.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/backtoidle.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/backtoidle.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/conflict.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/conflict.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/droplet_black.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/droplet_black.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/droplet_white.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/droplet_white.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/eye_black.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/eye_black.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/eye_white.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/eye_white.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-2drotation.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-2drotation.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-add-duplicate.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-add-duplicate.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-add-image.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-add-image.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-add-layer.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-add-layer.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-add-video.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-add-video.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-align.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-align.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-alignbottom-dark.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-alignbottom-dark.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-alignbottom-light.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-alignbottom-light.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-aligncenterh-dark.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-aligncenterh-dark.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-aligncenterh-light.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-aligncenterh-light.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-aligncenterv-dark.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-aligncenterv-dark.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-aligncenterv-light.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-aligncenterv-light.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-alignleft-dark.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-alignleft-dark.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-alignleft-light.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-alignleft-light.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-alignright-dark.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-alignright-dark.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-alignright-light.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-alignright-light.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-aligntop-dark.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-aligntop-dark.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-aligntop-light.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-aligntop-light.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-basketball2.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-basketball2.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-bg.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-bg.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-bordercolor.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-bordercolor.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-borderradius.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-borderradius.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-borderstyle.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-borderstyle.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-borderwidth.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-borderwidth.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-chooser-1-dark.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-chooser-1-dark.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-chooser-1-light.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-chooser-1-light.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-chooser-2-dark.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-chooser-2-dark.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-chooser-2-light.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-chooser-2-light.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-chooser-3-dark.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-chooser-3-dark.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-chooser-3-light.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-chooser-3-light.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-clock.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-clock.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-close-big.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-close-big.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-close.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-close.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-color.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-color.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-decoration.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-decoration.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-delete.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-delete.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-easing.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-easing.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-edit.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-edit.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-edit_dark.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-edit_dark.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-fontfamily.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-fontfamily.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-fontsize.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-fontsize.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-fonttemplate.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-fonttemplate.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-fontweight.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-fontweight.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-globe.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-globe.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-italic.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-italic.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-lineheight.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-lineheight.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-link-light.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-link-light.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-link.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-link.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-maxheight.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-maxheight.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-maxwidth.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-maxwidth.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-mode-desktop-dark.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-mode-desktop-dark.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-mode-desktop-light.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-mode-desktop-light.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-mode-laptop-dark.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-mode-laptop-dark.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-mode-laptop-light.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-mode-laptop-light.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-mode-phone-dark.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-mode-phone-dark.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-mode-phone-light.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-mode-phone-light.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-mode-tablet-dark.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-mode-tablet-dark.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-mode-tablet-light.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-mode-tablet-light.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-opacity.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-opacity.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-originx.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-originx.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-originy.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-originy.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-padding.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-padding.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-parallax.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-parallax.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-perspective.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-perspective.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-rev-logo-mini-2.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-rev-logo-mini-2.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-rev-logo-mini.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-rev-logo-mini.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-rotation-end.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-rotation-end.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-rotation-start.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-rotation-start.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-rotationx.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-rotationx.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-rotationy.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-rotationy.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-rotationz.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-rotationz.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-save-big.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-save-big.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-save-dark.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-save-dark.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-save-light.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-save-light.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-scalex.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-scalex.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-scaley.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-scaley.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-shortcode.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-shortcode.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-skewx.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-skewx.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-skewy.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-skewy.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-slide-published.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-slide-published.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-slide-unpublished.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-slide-unpublished.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-splittext-delay.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-splittext-delay.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-splittext.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-splittext.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-transition.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-transition.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-wrap-light.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-wrap-light.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-wrap.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-wrap.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-xoffset.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-xoffset.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-yoffset.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-yoffset.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-zoffset.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-zoffset.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/in_black.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/in_black.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/in_white.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/in_white.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/largearrow_black.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/largearrow_black.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/layers_bg_tile.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/layers_bg_tile.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/lightcopy.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/lightcopy.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/lightpencil.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/lightpencil.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/lighttrash.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/lighttrash.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/morestyles_black.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/morestyles_black.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/morestyles_white.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/morestyles_white.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/newlinear-horizontal.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/newlinear-horizontal.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/newlinear-vertical.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/newlinear-vertical.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/newlinear.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/newlinear.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/out_black.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/out_black.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/out_white.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/out_white.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/plus_black.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/plus_black.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/plus_grey.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/plus_grey.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/plus_white.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/plus_white.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/schematic_in.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/schematic_in.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/schematic_out.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/schematic_out.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/tiled-darkgrey.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/tiled-darkgrey.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/tiled-lightgrey.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/tiled-lightgrey.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/tiled-red.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/tiled-red.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/toolbar-bg.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/toolbar-bg.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/tools_black.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/tools_black.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/tools_white.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/tools_white.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/visibility_black.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/visibility_black.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/visibility_white.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/toolbar/visibility_white.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/tooltips/progressbar.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/tooltips/progressbar.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/tooltips/slide_placeholder.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/tooltips/slide_placeholder.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/tooltips/slide_placeholder_cut.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/tooltips/slide_placeholder_cut.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/topbar.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/topbar.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/tp-brokenimage.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/tp-brokenimage.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/tp_newsletter_bg.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/tp_newsletter_bg.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/trans_tile.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/trans_tile.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/trans_tile2.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/trans_tile2.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/transparent.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/transparent.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/visitstore.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/visitstore.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/wp-arrows.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/images/wp-arrows.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/js/admin.js" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/js/admin.js" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/js/codemirror/codemirror.css" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/js/codemirror/codemirror.css" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/js/codemirror/codemirror.js" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/js/codemirror/codemirror.js" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/js/codemirror/css.js" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/js/codemirror/css.js" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/js/codemirror/util/closetag.js" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/js/codemirror/util/closetag.js" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/js/codemirror/util/dialog.css" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/js/codemirror/util/dialog.css" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/js/codemirror/util/dialog.js" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/js/codemirror/util/dialog.js" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/js/codemirror/util/foldcode.js" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/js/codemirror/util/foldcode.js" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/js/codemirror/util/formatting.js" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/js/codemirror/util/formatting.js" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/js/codemirror/util/javascript-hint.js" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/js/codemirror/util/javascript-hint.js" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/js/codemirror/util/loadmode.js" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/js/codemirror/util/loadmode.js" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/js/codemirror/util/match-highlighter.js" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/js/codemirror/util/match-highlighter.js" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/js/codemirror/util/multiplex.js" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/js/codemirror/util/multiplex.js" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/js/codemirror/util/overlay.js" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/js/codemirror/util/overlay.js" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/js/codemirror/util/pig-hint.js" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/js/codemirror/util/pig-hint.js" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/js/codemirror/util/runmode-standalone.js" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/js/codemirror/util/runmode-standalone.js" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/js/codemirror/util/runmode.js" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/js/codemirror/util/runmode.js" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/js/codemirror/util/search.js" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/js/codemirror/util/search.js" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/js/codemirror/util/searchcursor.js" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/js/codemirror/util/searchcursor.js" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/js/codemirror/util/simple-hint.css" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/js/codemirror/util/simple-hint.css" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/js/codemirror/util/simple-hint.js" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/js/codemirror/util/simple-hint.js" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/js/codemirror/util/xml-hint.js" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/js/codemirror/util/xml-hint.js" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/js/css_editor.js" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/js/css_editor.js" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/js/edit_layers.js" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/js/edit_layers.js" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/js/edit_layers_timeline.js" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/js/edit_layers_timeline.js" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/js/jquery.tipsy.js" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/js/jquery.tipsy.js" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/js/newvideo.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/js/oldvideo.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/js/rev_admin.js" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/js/rev_admin.js" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/js/settings.js" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/js/settings.js" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/js/tbld-3.9.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/js/tbld-4.3.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/assets/js/tbld.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/revslider-admin.class.php" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/revslider-admin.class.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/views/master-view.php" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/views/master-view.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/views/navigation-editor.php" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/views/navigation-editor.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/views/slide-editor.php" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/views/slide-editor.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/views/slide-overview.php" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/views/slide-overview.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/views/slider-editor.php" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/views/slider-editor.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/views/slider-overview.php" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/views/slider-overview.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/views/system/dialog-copy-move.php" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/views/system/dialog-copy-move.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/views/system/dialog-global-settings.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/views/system/dialog-video.php" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/views/system/dialog-video.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/views/system/validation.php" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/views/system/validation.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/views/templates/create-slider.php" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/views/templates/create-slider.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/views/templates/edit-slider.php" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/views/templates/edit-slider.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/views/templates/slide-general-settings.php" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/views/templates/slide-general-settings.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/views/templates/slide-selector.php" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/views/templates/slide-selector.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/views/templates/slide-stage.php" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/views/templates/slide-stage.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/views/templates/slider-main-options.php" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/views/templates/slider-main-options.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/views/templates/sliders-list.php" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/views/templates/sliders-list.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/views/templates/slides-list.php" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/views/templates/slides-list.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/views/templates/slides.php" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/views/templates/slides.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/views/templates/template-selector.php" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/views/templates/template-selector.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/views/templates/template-slider-selector.php" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/views/templates/template-slider-selector.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/views/templates/wpml-selector.php" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/admin/views/templates/wpml-selector.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/backup/captions-original.css" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/backup/captions-original.css" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/includes/extension.class.php" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/includes/extension.class.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/includes/external-sources.class.php" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/includes/external-sources.class.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/includes/framework/aq-resizer.class.php" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/includes/framework/aq-resizer.class.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/includes/framework/base-admin.class.php" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/includes/framework/base-admin.class.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/includes/framework/base-front.class.php" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/includes/framework/base-front.class.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/includes/framework/base.class.php" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/includes/framework/base.class.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/includes/framework/cssparser.class.php" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/includes/framework/cssparser.class.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/includes/framework/db.class.php" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/includes/framework/db.class.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/includes/framework/elements-base.class.php" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/includes/framework/elements-base.class.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/includes/framework/em-integration.class.php" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/includes/framework/em-integration.class.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/includes/framework/functions-wordpress.class.php" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/includes/framework/functions-wordpress.class.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/includes/framework/functions.class.php" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/includes/framework/functions.class.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/includes/framework/include-framework.php" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/includes/framework/include-framework.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/includes/framework/newsletter.class.php" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/includes/framework/newsletter.class.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/includes/framework/plugin-update.class.php" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/includes/framework/plugin-update.class.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/includes/framework/update.class.php" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/includes/framework/update.class.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/includes/framework/wpml.class.php" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/includes/framework/wpml.class.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/includes/globals.class.php" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/includes/globals.class.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/includes/navigation.class.php" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/includes/navigation.class.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/includes/operations.class.php" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/includes/operations.class.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/includes/output.class.php" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/includes/output.class.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/includes/slide.class.php" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/includes/slide.class.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/includes/slider.class.php" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/includes/slider.class.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/includes/template.class.php" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/includes/template.class.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/includes/tinybox.class.php" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/includes/tinybox.class.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/includes/widget.class.php" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/includes/widget.class.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/languages/revslider-de_DE.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/languages/revslider-de_DE.mo" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/languages/revslider-de_DE.po" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/languages/revslider-de_DE.po" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/languages/revslider-en_US.po" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/languages/revslider-en_US.po" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/languages/revslider-hu_HU.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/languages/revslider-hu_HU.mo" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/languages/revslider-hu_HU.po" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/languages/revslider-hu_HU.po" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/languages/revslider-it_IT.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/languages/revslider-it_IT.mo" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/languages/revslider-it_IT.po" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/languages/revslider-it_IT.po" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/languages/revslider-pl_PL.po" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/languages/revslider-pl_PL.po" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/languages/revslider-ru_RU.po" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/languages/revslider-ru_RU.po" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/languages/revslider-zh_CN.po" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/languages/revslider-zh_CN.po" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/languages/revslider.pot" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/languages/revslider.pot" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/public/assets/assets/gridtile_white.png" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/public/assets/assets/gridtile_white.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/public/assets/css/captions-original.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/public/assets/css/settings.css" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/public/assets/css/settings.css" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/public/assets/fonts/font-awesome/css/font-awesome.css" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/public/assets/fonts/font-awesome/css/font-awesome.css" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/public/assets/fonts/font-awesome/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/public/assets/fonts/font-awesome/css/font-awesome.min.css" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/public/assets/fonts/font-awesome/css/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/public/assets/fonts/font-awesome/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/public/assets/fonts/font-awesome/fonts/FontAwesome.otf" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/public/assets/fonts/font-awesome/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/public/assets/fonts/font-awesome/fonts/fontawesome-webfont.eot" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/public/assets/fonts/font-awesome/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/public/assets/fonts/font-awesome/fonts/fontawesome-webfont.svg" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/public/assets/fonts/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/public/assets/fonts/font-awesome/fonts/fontawesome-webfont.ttf" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/public/assets/fonts/font-awesome/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/public/assets/fonts/font-awesome/fonts/fontawesome-webfont.woff" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/public/assets/fonts/font-awesome/fonts/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/public/assets/fonts/pe-icon-7-stroke/css/helper.css" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/public/assets/fonts/pe-icon-7-stroke/css/helper.css" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/public/assets/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/public/assets/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/public/assets/fonts/pe-icon-7-stroke/fonts/Pe-icon-7-stroke.svg" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/public/assets/fonts/pe-icon-7-stroke/fonts/Pe-icon-7-stroke.svg" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/public/assets/js/extensions/revolution.extension.actions.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/public/assets/js/extensions/revolution.extension.actions.min.js" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/public/assets/js/extensions/revolution.extension.carousel.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/public/assets/js/extensions/revolution.extension.carousel.min.js" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/public/assets/js/extensions/revolution.extension.kenburn.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/public/assets/js/extensions/revolution.extension.kenburn.min.js" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/public/assets/js/extensions/revolution.extension.layeranimation.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/public/assets/js/extensions/revolution.extension.layeranimation.min.js" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/public/assets/js/extensions/revolution.extension.migration.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/public/assets/js/extensions/revolution.extension.migration.min.js" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/public/assets/js/extensions/revolution.extension.navigation.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/public/assets/js/extensions/revolution.extension.navigation.min.js" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/public/assets/js/extensions/revolution.extension.parallax.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/public/assets/js/extensions/revolution.extension.parallax.min.js" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/public/assets/js/extensions/revolution.extension.slideanims.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/public/assets/js/extensions/revolution.extension.slideanims.min.js" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/public/assets/js/extensions/revolution.extension.video.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/public/assets/js/extensions/revolution.extension.video.min.js" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/public/assets/js/extensions/source/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/public/assets/js/extensions/source/revolution.extension.actions.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/public/assets/js/extensions/source/revolution.extension.carousel.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/public/assets/js/extensions/source/revolution.extension.kenburn.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/public/assets/js/extensions/source/revolution.extension.layeranimation.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/public/assets/js/extensions/source/revolution.extension.migration.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/public/assets/js/extensions/source/revolution.extension.navigation.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/public/assets/js/extensions/source/revolution.extension.parallax.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/public/assets/js/extensions/source/revolution.extension.slideanims.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/public/assets/js/extensions/source/revolution.extension.video.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/public/assets/js/source/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/public/assets/js/source/jquery.themepunch.enablelog.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/public/assets/js/source/jquery.themepunch.revolution.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/public/assets/js/source/jquery.themepunch.tools.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/public/revslider-front.class.php" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/public/revslider-front.class.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/release_log.html" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/release_log.html" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/revslider.php" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/revslider.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/uninstall.php" afterPath="$PROJECT_DIR$/wp-content/plugins/revslider/uninstall.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/asset/dist/css/styles.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/asset/dist/css/styles.css" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/asset/dist/img/icon-cli.svg" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/asset/dist/img/icon-cli.svg" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/asset/dist/img/icon-media-files.svg" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/asset/dist/img/icon-media-files.svg" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/asset/dist/img/icon-multisite-tools.svg" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/asset/dist/img/icon-multisite-tools.svg" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/asset/dist/js/common-092.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/asset/dist/js/common-092.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/asset/dist/js/hook-092.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/asset/dist/js/hook-092.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/asset/dist/js/multisite-092.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/asset/dist/js/multisite-092.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/asset/dist/js/plugin-update-092.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/asset/dist/js/plugin-update-092.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/asset/dist/js/script-092.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/asset/dist/js/script-092.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/class/wpmdb-base.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/class/wpmdb-base.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/class/wpmdb-cli.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/class/wpmdb-cli.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/class/wpmdb-filesystem.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/class/wpmdb-filesystem.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/class/wpmdb-replace.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/class/wpmdb-replace.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/class/wpmdb-utils.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/class/wpmdb-utils.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/class/wpmdb.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/class/wpmdb.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/compatibility/wp-migrate-db-pro-compatibility.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/compatibility/wp-migrate-db-pro-compatibility.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/languages/wp-migrate-db-en.pot" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/languages/wp-migrate-db-en.pot" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/readme.txt" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/readme.txt" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/template/addons.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/template/addons.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/template/common/checkbox.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/template/common/checkbox.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/template/common/compatibility.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/template/common/compatibility.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/template/common/debug-info.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/template/common/debug-info.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/template/migrate.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/template/migrate.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/template/wpmdb/progress-upgrade.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/template/wpmdb/progress-upgrade.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/template/wpmdb/sidebar.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/template/wpmdb/sidebar.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/template/wpmdb/wordpress-org-support.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/template/wpmdb/wordpress-org-support.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/wp-migrate-db.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/wp-migrate-db.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil.zip" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/.htaccess" afterPath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/.htaccess" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/.idea/workspace.xml" afterPath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/404.php" afterPath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/404.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/archive.php" afterPath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/archive.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/comments.php" afterPath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/comments.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/content-list.php" afterPath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/content-list.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/content.php" afterPath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/content.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/css/css.css" afterPath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/css/css.css" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/css/instituto-brasil.webflow.css" afterPath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/css/instituto-brasil.webflow.css" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/css/main.css" afterPath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/css/main.css" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/css/main.css.map" afterPath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/css/main.css.map" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/css/main.scss" afterPath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/css/main.scss" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/css/webflow.css" afterPath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/css/webflow.css" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/footer.php" afterPath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/footer.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/functions.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/header.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/images/icon1_17.png" afterPath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/images/icon1_17.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/images/icon2_20.png" afterPath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/images/icon2_20.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/images/icon3_19.png" afterPath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/images/icon3_19.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/index.html" afterPath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/index.html" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/index.php" afterPath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/index.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/instituto-brasil.zip" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/js/main.js" afterPath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/js/main.js" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/.env.example" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/.gitattributes" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/app/Console/Commands/Inspire.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/app/Console/Kernel.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/app/Entities/Bill.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/app/Entities/City.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/app/Entities/Client.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/app/Entities/Contract.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/app/Entities/Course.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/app/Entities/CourseArea.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/app/Entities/CourseDiscipline.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/app/Entities/CourseType.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/app/Entities/Document.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/app/Entities/Enrolment.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/app/Entities/EnrolmentPlane.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/app/Entities/EnrolmentTransaction.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/app/Entities/Graduation.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/app/Entities/MaterialPlane.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/app/Entities/MaterialWorkload.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/app/Entities/PagammentPlane.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/app/Entities/PromotionValue.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/app/Entities/SearchMedia.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/app/Entities/State.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/app/Events/Event.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/app/Exceptions/Handler.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/app/Http/Controllers/Auth/AuthController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/app/Http/Controllers/Auth/PasswordController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/app/Http/Controllers/ClientController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/app/Http/Controllers/ContractController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/app/Http/Controllers/Controller.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/app/Http/Controllers/CourseController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/app/Http/Controllers/CourseDisciplineController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/app/Http/Controllers/DocumentController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/app/Http/Controllers/EnrolmentController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/app/Http/Controllers/EnrolmentPlaneController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/app/Http/Controllers/GraduationController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/app/Http/Controllers/LocationController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/app/Http/Controllers/MaterialPlaneController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/app/Http/Controllers/PagammentPlaneController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/app/Http/Controllers/SearchMediaController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/app/Http/Kernel.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/app/Http/Middleware/Authenticate.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/app/Http/Middleware/Cors.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/app/Http/Middleware/EncryptCookies.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/app/Http/Middleware/RedirectIfAuthenticated.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/app/Http/Middleware/VerifyCsrfToken.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/app/Http/Requests/Request.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/app/Http/routes.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/app/Jobs/Job.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/app/Listeners/.gitkeep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/app/OAuth/Verifier.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/app/Policies/.gitkeep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/app/Providers/AppServiceProvider.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/app/Providers/AuthServiceProvider.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/app/Providers/EventServiceProvider.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/app/Providers/RouteServiceProvider.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/app/Service/BillService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/app/Service/ClientService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/app/Service/CodeBoletoService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/app/Service/EnrolmentService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/app/Service/TransactionService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/app/Service/WorkloadService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/app/User.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/artisan" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/bootstrap/app.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/bootstrap/autoload.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/bootstrap/cache/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/composer.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/composer.lock" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/config/app.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/config/auth.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/config/broadcasting.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/config/cache.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/config/compile.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/config/cors.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/config/database.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/config/filesystems.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/config/mail.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/config/oauth2.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/config/queue.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/config/services.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/config/session.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/config/view.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/database/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/database/factories/ModelFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/database/migrations/.gitkeep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/database/migrations/2014_04_24_110151_create_oauth_scopes_table.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/database/migrations/2014_04_24_110304_create_oauth_grants_table.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/database/migrations/2014_04_24_110403_create_oauth_grant_scopes_table.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/database/migrations/2014_04_24_110459_create_oauth_clients_table.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/database/migrations/2014_04_24_110557_create_oauth_client_endpoints_table.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/database/migrations/2014_04_24_110705_create_oauth_client_scopes_table.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/database/migrations/2014_04_24_110817_create_oauth_client_grants_table.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/database/migrations/2014_04_24_111002_create_oauth_sessions_table.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/database/migrations/2014_04_24_111109_create_oauth_session_scopes_table.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/database/migrations/2014_04_24_111254_create_oauth_auth_codes_table.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/database/migrations/2014_04_24_111403_create_oauth_auth_code_scopes_table.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/database/migrations/2014_04_24_111518_create_oauth_access_tokens_table.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/database/migrations/2014_04_24_111657_create_oauth_access_token_scopes_table.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/database/migrations/2014_04_24_111810_create_oauth_refresh_tokens_table.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/database/migrations/2014_10_12_000000_create_users_table.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/database/seeds/.gitkeep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/database/seeds/DatabaseSeeder.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/database/seeds/OAuthSeeder.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/database/seeds/UserSeeder.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/gulpfile.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/phpunit.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/public/.htaccess" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/public/favicon.ico" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/public/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/public/robots.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/public/web.config" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/resources/assets/sass/app.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/resources/lang/en/auth.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/resources/lang/en/pagination.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/resources/lang/en/passwords.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/resources/lang/en/validation.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/resources/views/errors/503.blade.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/resources/views/vendor/.gitkeep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/resources/views/welcome.blade.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/server.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/storage/app/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/storage/app/public/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/storage/framework/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/storage/framework/cache/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/storage/framework/sessions/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/storage/framework/views/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/storage/logs/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/tests/ExampleTest.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/tests/TestCase.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/page-blog.php" afterPath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/page-blog.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/page-curso.php" afterPath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/page-curso.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/page-cursos.php" afterPath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/page-cursos.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/page.php" afterPath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/page.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/search.php" afterPath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/search.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/searchform.php" afterPath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/searchform.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/single.php" afterPath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/single.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/style.css" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/wp-config.php" afterPath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/wp-config.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/404.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/README.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/archive.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/css/colors-dark.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/css/editor-style.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/css/ie8.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/css/ie9.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/images/coffee.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/images/espresso.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/images/header.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/images/sandwich.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/images/svg-icons.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/js/customize-controls.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/js/customize-preview.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/js/global.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/js/html5.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/js/jquery.scrollTo.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/js/navigation.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/js/skip-link-focus-fix.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/comments.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/footer.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/front-page.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/functions.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/header.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/inc/back-compat.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/inc/color-patterns.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/inc/custom-header.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/inc/customizer.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/inc/icon-functions.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/inc/template-functions.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/inc/template-tags.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/page.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/rtl.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/screenshot.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/search.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/searchform.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/sidebar.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/single.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/style.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/footer/footer-widgets.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/footer/site-info.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/header/header-image.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/header/site-branding.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/navigation/navigation-top.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/page/content-front-page-panels.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/page/content-front-page.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/page/content-page.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/post/content-audio.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/post/content-excerpt.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/post/content-gallery.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/post/content-image.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/post/content-none.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/post/content-video.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/post/content.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/wp-migrate-db/.htaccess" afterPath="$PROJECT_DIR$/wp-content/uploads/wp-migrate-db/.htaccess" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/wp-migrate-db/index.php" afterPath="$PROJECT_DIR$/wp-content/uploads/wp-migrate-db/index.php" />
+      <change beforePath="$PROJECT_DIR$/wp-includes/images/crystal/license.txt" afterPath="$PROJECT_DIR$/wp-includes/images/crystal/license.txt" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="wp-config.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1335">
+              <caret line="89" column="24" lean-forward="false" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page-curso.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/instituto-brasil/page-curso.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1485">
+              <caret line="99" column="49" lean-forward="false" selection-start-line="99" selection-start-column="49" selection-end-line="99" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page-cursos.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/instituto-brasil/page-cursos.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="100" lean-forward="false" selection-start-line="27" selection-start-column="100" selection-end-line="27" selection-end-column="100" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="enrolment.service.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/src/app/enrolment.service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="735">
+              <caret line="54" column="82" lean-forward="false" selection-start-line="54" selection-start-column="82" selection-end-line="54" selection-end-column="82" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page-matricula.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/instituto-brasil/page-matricula.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="314">
+              <caret line="245" column="16" lean-forward="false" selection-start-line="245" selection-start-column="16" selection-end-line="245" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/instituto-brasil/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3630">
+              <caret line="242" column="44" lean-forward="false" selection-start-line="242" selection-start-column="44" selection-end-line="242" selection-end-column="44" />
+              <folding>
+                <marker date="1516836244000" expanded="true" signature="9284:9374" ph="INSERT INTO ${$wpdb-&gt;prefix}newsletter... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>carga ho</find>
+      <find>ucam</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/src/app</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/wp-config.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/page-curso.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/page-cursos.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/src/app/enrolment.service.ts" />
+        <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/index.html" />
+        <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/page-matricula.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/node_modules" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="y" value="22" />
+    <option name="width" value="1440" />
+    <option name="height" value="831" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state />
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="instituto-brasil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="instituto-brasil" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="instituto-brasil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="instituto-brasil" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="instituto-brasil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="instituto-brasil" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="instituto-brasil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="instituto-brasil" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="instituto-brasil" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="instituto-brasil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="instituto-brasil" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="instituto-brasil" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="matricula" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="instituto-brasil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="instituto-brasil" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="instituto-brasil" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="matricula src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="instituto-brasil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="instituto-brasil" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="instituto-brasil" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="matricula src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="instituto-brasil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="instituto-brasil" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="instituto-brasil" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="matricula src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="instituto-brasil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="instituto-brasil" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="instituto-brasil" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="matricula src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="step-one" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="javascript.nodejs.core.library.configured.version" value="6.11.4" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="397a390e-8495-4180-86b5-389fd3a32a94" name="Default" comment="" />
+      <created>1516830390984</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1516830390984</updated>
+      <workItem from="1516830394924" duration="2904000" />
+      <workItem from="1516876466619" duration="597000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3501000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="22" width="1440" height="831" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2532189" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959327" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/node_modules/reflect-metadata/test/reflect-hasmetadata.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/node_modules/reflect-metadata/test/reflect-hasmetadata.js.map" />
+        <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/node_modules/reflect-metadata/test/reflect-deletemetadata.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/node_modules/reflect-metadata/test/reflect-deletemetadata.js.map" />
+        <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/node_modules/reflect-metadata/test/reflect-decorate.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/node_modules/reflect-metadata/test/reflect-decorate.js.map" />
+        <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/node_modules/reflect-metadata/test/reflect-hasownmetadata.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/node_modules/reflect-metadata/test/reflect-hasownmetadata.js.map" />
+        <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/node_modules/reflect-metadata/test/reflect-getownmetadatakeys.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/node_modules/reflect-metadata/test/reflect-getownmetadatakeys.js.map" />
+        <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/node_modules/reflect-metadata/test/reflect-getownmetadata.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/node_modules/reflect-metadata/test/reflect-getownmetadata.js.map" />
+        <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/node_modules/reflect-metadata/test/reflect-getmetadata.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/node_modules/reflect-metadata/test/reflect-getmetadata.js.map" />
+        <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/node_modules/reflect-metadata/test/reflect-metadata.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/node_modules/reflect-metadata/test/reflect-metadata.js.map" />
+        <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/node_modules/reflect-metadata/test/reflect-getmetadatakeys.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/node_modules/reflect-metadata/test/reflect-getmetadatakeys.js.map" />
+        <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/node_modules/reflect-metadata/test/reflect-definemetadata.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/node_modules/reflect-metadata/test/reflect-definemetadata.js.map" />
+        <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/node_modules/reflect-metadata/Reflect.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/node_modules/reflect-metadata/Reflect.d.ts" />
+        <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/node_modules/reflect-metadata/Reflect.js.map" />
+        <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/node_modules/@angular/cli/blueprints/interface/index.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/node_modules/@angular/cli/blueprints/interface/index.d.ts" />
+        <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/node_modules/@angular/cli/blueprints/interface/index.js.map" />
+        <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/node_modules/@angular/cli/blueprints/directive/index.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/node_modules/@angular/cli/blueprints/directive/index.d.ts" />
+        <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/node_modules/@angular/cli/blueprints/directive/index.js.map" />
+        <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/node_modules/@angular/cli/blueprints/component/index.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/node_modules/@angular/cli/blueprints/component/index.d.ts" />
+        <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/node_modules/@angular/cli/blueprints/component/index.js.map" />
+        <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/node_modules/@angular/cli/blueprints/service/index.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/node_modules/@angular/cli/blueprints/service/index.d.ts" />
+        <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/node_modules/@angular/cli/blueprints/service/index.js.map" />
+        <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/node_modules/@angular/cli/blueprints/module/index.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/node_modules/@angular/cli/blueprints/module/index.d.ts" />
+        <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/node_modules/@angular/cli/blueprints/module/index.js.map" />
+        <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/node_modules/@angular/cli/blueprints/guard/index.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/node_modules/@angular/cli/blueprints/guard/index.d.ts" />
+        <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/node_modules/@angular/cli/blueprints/guard/index.js.map" />
+        <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/node_modules/@angular/cli/blueprints/class/index.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/node_modules/@angular/cli/blueprints/class/index.d.ts" />
+        <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/node_modules/@angular/cli/blueprints/class/index.js.map" />
+        <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/node_modules/@angular/cli/blueprints/pipe/index.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/node_modules/@angular/cli/blueprints/pipe/index.d.ts" />
+        <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/node_modules/@angular/cli/blueprints/pipe/index.js.map" />
+        <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/node_modules/@angular/cli/blueprints/enum/index.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/node_modules/@angular/cli/blueprints/enum/index.d.ts" />
+        <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/node_modules/@angular/cli/blueprints/enum/index.js.map" />
+        <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/node_modules/@angular/cli/blueprints/ng/index.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/node_modules/@angular/cli/blueprints/ng/index.d.ts" />
+        <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/node_modules/@angular/cli/blueprints/ng/index.js.map" />
+        <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/node_modules/karma/config.tpl.js" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/src/app/step-one/step-one.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="17" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1335">
+          <caret line="89" column="24" lean-forward="false" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/instituto-brasil/page-curso.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1485">
+          <caret line="99" column="49" lean-forward="false" selection-start-line="99" selection-start-column="49" selection-end-line="99" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/instituto-brasil/page-cursos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="100" lean-forward="false" selection-start-line="27" selection-start-column="100" selection-end-line="27" selection-end-column="100" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/src/app/enrolment.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="54" column="82" lean-forward="false" selection-start-line="54" selection-start-column="82" selection-end-line="54" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/instituto-brasil/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3630">
+          <caret line="242" column="44" lean-forward="false" selection-start-line="242" selection-start-column="44" selection-end-line="242" selection-end-column="44" />
+          <folding>
+            <marker date="1516836244000" expanded="true" signature="9284:9374" ph="INSERT INTO ${$wpdb-&gt;prefix}newsletter... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/instituto-brasil/page-matricula.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="245" column="16" lean-forward="false" selection-start-line="245" selection-start-column="16" selection-end-line="245" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

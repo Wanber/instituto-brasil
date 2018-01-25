@@ -1,0 +1,57 @@
+#ed-logo-carousel-metabox-list li {
+  display:block;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+  cursor: move;
+  border-bottom:2px dashed #CCCCCC;
+ 
+  float:left;
+  padding:25px;
+}
+
+#ed-logo-carousel-metabox-list li img{
+	max-height:100px;
+	width:auto;
+	float:left;
+	max-width:200px;
+	height:auto;
+}
+#ed-logo-carousel-metabox-list li input[type=text]{
+	display:block;
+	width:100%;
+	margin-bottom:10px;
+	clear:both;
+}
+#ed-logo-carousel-metabox-list li input[type=text].wdith-70{
+	width:74%;
+	float:left;	
+}
+#ed-logo-carousel-metabox-list li .wdith-30{
+	float:right;
+	width:25%;	
+	margin-bottom:10px;
+}
+.ed-pull-right{
+	width:calc(100% - 150px);
+	float:right;
+}
+#ed-logo-carousel-metabox-list  .button{
+	float:left;
+	margin-right:10px;	
+}
+#ed-logo-carousel-style-settings label{
+	display:block;
+	padding-bottom:5px;
+}
+.ed-space{
+	margin:10px 0px;
+	clear:both;
+	border-bottom:1px dashed #CCCCCC;	
+}
+.ed-table select,.ed-table number{
+	min-width:160px;
+}
+.ed-pro-div{
+	opacity:0.3;	
+}

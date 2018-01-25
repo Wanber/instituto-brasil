@@ -1,0 +1,402 @@
+<div class="container">
+
+  <div class="row" style="margin-bottom: 20px;">
+    <div class="col-md-4">
+      <div class="card-panel grey">
+        <h5 class="center-align grey-text">
+          <i class="fa fa-user"></i><br>
+          INFORMAÇÕES BÁSICAS
+        </h5>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card-panel teal">
+        <h5 class="center-align white-text">
+          <i class="fa fa-credit-card"></i><br>
+          DADOS FINANCEIROS
+        </h5>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card-panel grey">
+        <h5 class="center-align grey-text">
+          <i class="fa fa-print"></i><br>
+          COMPROVANTE INSCRIÇÃO
+        </h5>
+      </div>
+    </div>
+  </div>
+
+  <form #f2="ngForm">
+
+  <div class="row">
+    <div class="col-md-6">
+
+      <div class="panel panel-primary">
+        <div class="panel-heading">DADOS COMPLEMENTARES</div>
+        <div class="panel-body">
+          <div class="row">
+            <div class="form-group col-md-12" [class.has-success]="cep.valid && cep.touched" [class.has-error]="!cep.valid && cep.touched">
+              <div class="input-group">
+                <span class="input-group-addon">CEP <a href="http://www.buscacep.correios.com.br/" target="_blank">(Não sei o meu CEP)</a></span>
+                <input name="cep" [textMask]="{mask: cepmask}" type="text" class="form-control"
+                       [(ngModel)]="enrolment.cep" #cep="ngModel" (change)="getAddress(cep.value)" required>
+
+                <span *ngIf="cep.valid && cep.touched" class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+                <span *ngIf="!cep.valid && cep.touched" class="glyphicon glyphicon-remove form-control-feedback" aria-hidden="true"></span>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group col-md-12" [class.has-success]="endereco.valid && endereco.touched" [class.has-error]="!endereco.valid && endereco.touched">
+              <div class="input-group">
+                <span class="input-group-addon">Endereço</span>
+                <input name="endereco" type="text" class="form-control" #endereco="ngModel" [(ngModel)]="enrolment.endereco" required>
+
+                <span *ngIf="endereco.valid && endereco.touched" class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+                <span *ngIf="!endereco.valid && endereco.touched" class="glyphicon glyphicon-remove form-control-feedback" aria-hidden="true"></span>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group col-md-12">
+              <div class="input-group">
+                <span class="input-group-addon">Complemento</span>
+                <input name="complemento" type="text" class="form-control" [(ngModel)]="enrolment.complemento">
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group col-md-4" [class.has-success]="numero.valid && numero.touched" [class.has-error]="!numero.valid && numero.touched">
+              <div class="input-group">
+                <span class="input-group-addon">No.</span>
+                <input name="numero" type="text" #numero="ngModel" class="form-control" [(ngModel)]="enrolment.numero" required>
+
+                <span *ngIf="numero.valid && numero.touched" class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+                <span *ngIf="!numero.valid && numero.touched" class="glyphicon glyphicon-remove form-control-feedback" aria-hidden="true"></span>
+              </div>
+            </div>
+            <div class="form-group col-md-8" [class.has-success]="bairro.valid && bairro.touched" [class.has-error]="!bairro.valid && bairro.touched">
+              <div class="input-group">
+                <span class="input-group-addon">Bairro</span>
+                <input name="bairro" type="text" #bairro="ngModel" class="form-control" [(ngModel)]="enrolment.bairro" required>
+
+                <span *ngIf="bairro.valid && bairro.touched" class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+                <span *ngIf="!bairro.valid && bairro.touched" class="glyphicon glyphicon-remove form-control-feedback" aria-hidden="true"></span>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group col-md-5">
+              <label>Estado*</label>
+              <select name="cdestado" class="form-control" [(ngModel)]="enrolment.cdestado" (change)="getCity()" required>
+                <option value="null" disabled>Selecione</option>
+                <option *ngFor="let sta of state" value="{{ sta.cdestado }}">{{ sta.nmestado }}</option>
+              </select>
+            </div>
+            <div class="form-group col-md-7">
+              <label>Cidade*</label>
+              <select name="cdcidade" class="form-control" [(ngModel)]="enrolment.cdcidade" required>
+              <option value="null" disabled>Selecione</option>
+              <option *ngFor="let cit of city" value="{{ cit.cdcidade }}">{{ cit.nmcidade }}</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group col-md-12">
+              <label>Formação escolar*</label>
+              <select name="cdformacaoescolar" class="form-control" [(ngModel)]="enrolment.cdformacaoescolar" required>
+                <option value="null" disabled>Selecione</option>
+                <option *ngFor="let gra of graduation" value="{{ gra.cdformacaoescolar }}">{{ gra.nmformacaoescolar }}</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group col-md-12" [class.has-success]="cgraduacao.valid && cgraduacao.touched" [class.has-error]="!cgraduacao.valid && cgraduacao.touched">
+              <div class="input-group">
+                <span class="input-group-addon">Nome do curso de graduação</span>
+                <input type="text" name="nmcursograduacao" class="form-control" #cgraduacao="ngModel"
+                        [(ngModel)]="enrolment.nmcursograduacao" required>
+
+                <span *ngIf="cgraduacao.valid && cgraduacao.touched" class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+                <span *ngIf="!cgraduacao.valid && cgraduacao.touched" class="glyphicon glyphicon-remove form-control-feedback" aria-hidden="true"></span>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group col-md-12" [class.has-success]="dtcolacao.valid && dtcolacao.touched" [class.has-error]="!dtcolacao.valid && dtcolacao.touched">
+              <div class="input-group">
+                <span class="input-group-addon">Data para colação de grau</span>
+                <input type="text" [textMask]="{mask: datamask}" name="dtcolacaodegrau" class="form-control"
+                       [(ngModel)]="enrolment.dtcolacaodegrau" #dtcolacao="ngModel" required (change)="verifyDtColacao()">
+
+                <span *ngIf="dtcolacao.valid && dtcolacao.touched" class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+                <span *ngIf="!dtcolacao.valid && dtcolacao.touched" class="glyphicon glyphicon-remove form-control-feedback" aria-hidden="true"></span>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group col-md-5">
+              <label>Estado Naturalidade*</label>
+              <select name="cdestadonaturalidade" class="form-control" [(ngModel)]="enrolment.cdestadonaturalidade" (change)="getCityN()" required>
+                <option value="null" disabled>Selecione</option>
+                <option *ngFor="let ena of staten" value="{{ ena.cdestado }}">{{ ena.nmestado }}</option>
+              </select>
+            </div>
+            <div class="form-group col-md-7">
+              <label>Cidade Naturalidade*</label>
+              <select name="cdcidadenaturalidade" class="form-control" [(ngModel)]="enrolment.cdcidadenaturalidade" required>
+                <option value="null" disabled>Selecione</option>
+                <option *ngFor="let cidn of cityn" value="{{ cidn.cdcidade }}">{{ cidn.nmcidade }}</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group col-md-5">
+              <label>Data de nascimento*</label>
+              <input class="form-control" [textMask]="{mask: datamask}" type="text" name="dtnascimento" [(ngModel)]="enrolment.dtnascimento" required>
+            </div>
+            <div class="form-group col-md-3">
+              <label>Sexo*</label>
+              <select name="sexo" class="form-control" [(ngModel)]="enrolment.sexo" required>
+                <option value="null" disabled>Selecione</option>
+                <option value="M">Masculino</option>
+                <option value="F">Feminino</option>
+              </select>
+            </div>
+            <div class="form-group col-md-4">
+              <label>Estado civil*</label>
+              <select name="cdestado_civil" class="form-control" [(ngModel)]="enrolment.cdestado_civil" required>
+                <option value="null" disabled>Selecione</option>
+                <option value="S">Solteiro(a)</option>
+                <option value="C">Casado(a)</option>
+                <option value="D">Divorciado(a)</option>
+                <option value="V">Viúvo(a)</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group col-md-7" [class.has-success]="rg.valid && rg.touched" [class.has-error]="!rg.valid && rg.touched">
+              <div class="input-group">
+                <span class="input-group-addon">Nº Identidade</span>
+                <input class="form-control" type="text" name="nuidentidade" #rg="ngModel" [(ngModel)]="enrolment.nuidentidade" required>
+
+                <span *ngIf="rg.valid && rg.touched" class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+                <span *ngIf="!rg.valid && rg.touched" class="glyphicon glyphicon-remove form-control-feedback" aria-hidden="true"></span>
+              </div>
+            </div>
+            <div class="form-group col-md-5" [class.has-success]="oexp.valid && oexp.touched" [class.has-error]="!oexp.valid && oexp.touched">
+              <div class="input-group">
+                <span class="input-group-addon">Orgão Exp.</span>
+                <input class="form-control" type="text" name="orgaoexpedidor" #oexp="ngModel" [(ngModel)]="enrolment.orgaoexpedidor" required>
+
+                <span *ngIf="oexp.valid && oexp.touched" class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+                <span *ngIf="!oexp.valid && oexp.touched" class="glyphicon glyphicon-remove form-control-feedback" aria-hidden="true"></span>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group col-md-12" [class.has-success]="nmpai.valid && nmpai.touched" [class.has-error]="!nmpai.valid && nmpai.touched">
+              <div class="input-group">
+                <span class="input-group-addon">Nome do pai</span>
+                <input class="form-control" type="text" name="nmpai" #nmpai="ngModel" [(ngModel)]="enrolment.nmpai" required>
+
+                <span *ngIf="nmpai.valid && nmpai.touched" class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+                <span *ngIf="!nmpai.valid && nmpai.touched" class="glyphicon glyphicon-remove form-control-feedback" aria-hidden="true"></span>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group col-md-12" [class.has-success]="nmmae.valid && nmmae.touched" [class.has-error]="!nmmae.valid && nmmae.touched">
+              <div class="input-group">
+                <span class="input-group-addon">Nome da mãe</span>
+                <input class="form-control" type="text" name="nmmae" #nmmae="ngModel" [(ngModel)]="enrolment.nmmae" required>
+
+                <span *ngIf="nmmae.valid && nmmae.touched" class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+                <span *ngIf="!nmmae.valid && nmmae.touched" class="glyphicon glyphicon-remove form-control-feedback" aria-hidden="true"></span>
+              </div>
+            </div>
+          </div>
+        </div><!--panel body-->
+        <div class="panel-footer">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="checkbox">
+                <label class="contrato">
+                  <input name="contrato" type="checkbox" value="aceito" [(ngModel)]="enrolment.contrato" required /> Li e estou de acordo com os termos do
+                  <button type="button" class="btn btn-primary" (click)="lgModal.show()">contrato</button>
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="alert alert-danger" *ngIf="message" innerHtml="{{ message }}"></div>
+              <div class="alert alert-danger" *ngIf="colacao">Desculpe, verificamos que você ainda <b>não colou grau</b>, só é permitido a inscrição com <b>no máximo 6 meses</b> para colação de grau. Qualquer dúvida entre em contato conosco.</div>
+            </div>
+          </div>
+        </div><!--panel footer-->
+      </div><!--panel fim-->
+
+    </div>
+
+    <!-- Segunda parte ###############-->
+
+    <div class="col-md-6">
+
+      <div class="panel panel-primary">
+        <div class="panel-heading">FINANCEIRO</div>
+        <div class="panel-body">
+          <div class="row">
+            <div class="col-md-12">
+
+              <tabset [justified]="true">
+                <tab heading="Boleto Bancário">
+
+                  <!--<div class="row margin-top-20">-->
+                    <!--<div class="form-group col-md-9">-->
+                      <!--<label>Inserir código promocional</label>-->
+                      <!--<input name="codigopromocional_boleto" type="text" class="form-control">-->
+                    <!--</div>-->
+                    <!--<div class="col-md-3">-->
+                      <!--<button type="button" class="btn btn-primary btn-block" style="margin-top: 25px;">Validar</button>-->
+                    <!--</div>-->
+                  <!--</div>-->
+
+                  <div class="row" style="margin-top: 30px">
+                    <div class="col-md-12">
+                      <div class="msgcupom alert " style="display: none"></div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-12">
+                      <p class="grey-text-dark" style="font-weight: bold">Plano pagamento inscrição (escolha a opção desejada)*</p>
+
+                      <div class="radio" *ngFor="let enrolpl of enrolmentplane">
+                        <label>
+                          <input type="radio" name="planoinscricao" value="{{ enrolpl.parcela }}-{{ enrolpl.valor }}" [(ngModel)]="enrolment.planoinscricao" required>
+                          {{ enrolpl.parcela }}x {{ enrolpl.valor | currency:'BRL':true }}
+                        </label>
+                      </div>
+
+                    </div>
+                  </div>
+
+                  <div class="row margin-top-20">
+                    <div class="form-group col-md-12">
+                      <label>Data para vencimento boleto da taxa de inscrição*</label>
+                      <select name="dtpagtoinscricao" type="text" class="form-control" [(ngModel)]="enrolment.dtpagtoinscricao" required>
+                        <option value="null" disabled>Selecione</option>
+                        <option *ngFor="let endate of enrolmentdate" value="{{ endate }}">{{ endate }}</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div class="row margin-top-20">
+                    <div class="col-md-12">
+                      <div class="bg-planopagamento">
+                        <p class="grey-text-dark" style="font-weight: bold">Plano pagamento mensalidade*</p>
+
+                        <div class="radio" *ngFor="let pagapl of pagamentplane">
+                          <label>
+                            <input type="radio" name="planomensalidade" value="{{ pagapl.parcela }}-{{ pagapl.valor }}" [(ngModel)]="enrolment.planomensalidade" required>
+                            {{ pagapl.parcela }}x {{ pagapl.valor | currency:'BRL':true }}
+                          </label>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row margin-top-20">
+                    <div class="form-group col-md-12">
+                      <label>Melhor dia para pagamento da(s) mensalidade(s)*</label>
+                      <select name="diapagamento" class="form-control" [(ngModel)]="enrolment.diapagamento" required>
+                        <option value="null" disabled>Selecione</option>
+                        <option value="5">Vencimento todo dia 5 de cada mês</option>
+                        <option value="10">Vencimento todo dia 10 de cada mês</option>
+                        <option value="15">Vencimento todo dia 15 de cada mês</option>
+                        <option value="20">Vencimento todo dia 20 de cada mês</option>
+                        <option value="25">Vencimento todo dia 25 de cada mês</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="row margin-top-20">
+                    <div class="form-group col-md-12">
+                      <label>Gerar Boletos a partir do mês:</label>
+                      <select name="mesiniciocobranca" class="form-control" [(ngModel)]="enrolment.mesiniciocobranca" required>
+                        <option value="null" disabled>Selecione</option>
+                        <option *ngFor="let month of monthpagament" value="{{ month }}">{{ month }}</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div class="row margin-top-20">
+                    <div class="col-md-12">
+                      <p class="grey-text-dark" style="font-weight: bold">Plano pagamento Material Didático*</p>
+
+                      <div class="radio">
+                        <label>
+                          <input type="radio" name="planomaterial" value="0" [(ngModel)]="enrolment.planomaterial" required>
+                          Material Online - Gratuito
+                        </label>
+                      </div>
+
+                      <div class="radio" *ngFor="let mapl of materialplane">
+                        <label>
+                          <input type="radio" name="planomaterial" value="{{ mapl.parcela }}-{{ mapl.valor }}" [(ngModel)]="enrolment.planomaterial" required>
+                          {{ mapl.parcela }}x {{ mapl.valor | currency:'BRL':true }}
+                        </label>
+                      </div>
+
+                    </div>
+                  </div>
+
+                  <div class="row margin-top-20" *ngIf="(enrolment.planomaterial != 0) ? true : false">
+                    <div class="form-group col-md-12">
+                      <label> Data para vencimento boleto do materal didático*</label>
+                      <select name="dtpagtomaterial" type="text" class="form-control" [(ngModel)]="enrolment.dtpagtomaterial" required>
+                        <option value="null" disabled>Selecione</option>
+                        <option *ngFor="let endate of enrolmentdate" value="{{ endate }}">{{ endate }}</option>
+                      </select>
+                    </div>
+                  </div>
+
+                </tab>
+              </tabset>
+
+            </div>
+          </div>
+        </div><!--panel-body-->
+        <div class="panel-footer">
+          <div class="row">
+            <div class="col-md-12">
+              <a routerLink="/" class="btn btn-padrao btn-lg"><i class="fa fa-arrow-left"></i> Voltar</a>
+              <a (click)="submitForm2(f2)" class="btn btn-padrao btn-lg">Próximo Passo <i class="fa fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div><!--panel-footer-->
+      </div><!--panel fim-->
+
+    </div>
+
+  </div>
+
+  </form>
+</div>
+
+<!--Large modal-->
+<div bsModal #lgModal="bs-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title pull-left">CONTRATO DE PRESTAÇÃO DE SERVIÇOS EDUCACIONAIS</h4>
+        <button type="button" class="close pull-right" (click)="lgModal.hide()" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" innerHtml="{{ contract }}"></div>
+    </div>
+  </div>
+</div>

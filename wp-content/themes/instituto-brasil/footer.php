@@ -3,9 +3,23 @@
         <div class="center-container">
             <div class="row1-rodape w-row">
                 <div class="w-clearfix w-col w-col-4">
-                    <a class="btn-cadastre-se-receba-novidades btn-padrao w-button" href="#">
-                        cadastre-se e receba novidades
-                    </a>
+
+                    <script language="JavaScript">
+                        function teste() {
+                            $('#newsletter_btn').hide();
+                            $('#newsletter').show();
+                        }
+                    </script>
+
+                    <form action="" method="post">
+                        <input type="text" name="newsletter" id="newsletter" placeholder="Seu email">
+                        <button type="button" id="newsletter_btn" onclick="teste()"
+                                class="btn-cadastre-se-receba-novidades btn-padrao w-button">
+                            cadastre-se e receba novidades
+                        </button>
+                    </form>
+
+                    <br />
 
                     <?php
                     $parametros_areas = [
@@ -18,7 +32,7 @@
 
                     <?php foreach ($areas_curso as $area) : ?>
 
-                        <a href="<?php echo get_page_link(get_page_id_by_slug('cursos')) . '?a=' . $area->cdcurso_area ?>"
+                        <a href="<?php echo get_page_link(get_page_id_by_slug('cursos')) . $area->area_alias ?>"
                            class="link-rodape">
                             &gt; <?php echo $area->dscurso_area ?>
                         </a>
@@ -65,6 +79,80 @@
         </div>
     </div>
 </footer>
+
+<script>
+    (function ($) {
+        $('#cssmenu').prepend('<div id="menu-button">Menu</div>');
+        $('#cssmenu #menu-button').on('click', function () {
+            var menu = $(this).next('ul');
+            if (menu.hasClass('open')) {
+                menu.removeClass('open');
+            } else {
+                menu.addClass('open');
+            }
+        });
+    })(jQuery);
+</script>
+
+<script>
+    (function ($) {
+        $('#menu-p').prepend('<div id="menu-button">Menu</div>');
+        $('#menu-p #menu-button').on('click', function () {
+            var menu = $(this).next('ul');
+            if (menu.hasClass('open')) {
+                menu.removeClass('open');
+            } else {
+                menu.addClass('open');
+            }
+        });
+    })(jQuery);
+</script>
+
+<?php
+if (@$_REQUEST['newsletter'] != '') {
+    $add = add_newsletter_stefano(htmlspecialchars(addslashes($_REQUEST['newsletter'])));
+
+    if ($add == '1')
+        echo '
+            <script>
+                (function ($) {
+                    swal({
+                        title: "Sucesso!",
+                        text: "Você foi inscrito em nossa newsletter",
+                        type: "success",
+                        confirmButtonText: "OK"
+                    });
+                })(jQuery);
+            </script>
+        ';
+    elseif ($add == '0')
+        echo '
+            <script>
+                (function ($) {
+                    swal({
+                        title: "Erro!",
+                        text: "Informe um email válido",
+                        type: "error",
+                        confirmButtonText: "OK"
+                    });
+                })(jQuery);
+            </script>
+        ';
+    elseif ($add == '-1')
+        echo '
+            <script>
+                (function ($) {
+                    swal({
+                        title: "Aviso!",
+                        text: "Você já foi inscrito anteriormente",
+                        type: "warning",
+                        confirmButtonText: "OK"
+                    });
+                })(jQuery);
+            </script>
+        ';
+}
+?>
 
 <?php wp_footer(); ?>
 

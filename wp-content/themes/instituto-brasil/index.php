@@ -19,12 +19,12 @@
 
                         <?php $thumb = get_the_post_thumbnail_url() . '?w=273&h=273'; ?>
 
-                        <!--loop-->
+                        <!--loop--><a href="<?php the_permalink() ?>">
                         <div class="column-instituto-pos-brasil w-col w-col-4">
                             <img class="img-instituto-pos-brasil" src="<?php echo $thumb ?>">
                             <h1 class="heading"><?php the_title() ?></h1>
-                            <div class="text-block"><?php the_excerpt() ?></div>
-                        </div>
+                            <div class="text-block"><?php echo substr(get_the_excerpt(), 0,165); ?></div>
+				  </div></a>
 
                     <?php endwhile; ?>
                     <?php wp_reset_postdata(); ?>
@@ -51,7 +51,7 @@
 
                     while ($the_query->have_posts()) : $the_query->the_post(); ?>
 
-                        <?php $thumb = get_the_post_thumbnail_url() . '?w=230&h=153'; ?>
+                        <?php $thumb = get_the_post_thumbnail_url(); ?>
 
                         <!--loop-->
                         <a href="<?php the_permalink() ?>" class="column-fique-ligado w-col w-col-3">
@@ -110,19 +110,34 @@
                         $img = 'layout_03.png';
 
                         switch ($area->area_alias) {
-                            case 'aa' :
-                                $img = 'aa_05.png';
+                            case 'direito' :
+                                $img = 'direito.png';
                                 break;
-                            case 'bb' :
-                                $img = 'layout_07_07.png';
+                            case 'educacao' :
+                                $img = 'educacao.png';
                                 break;
-                            case 'cc' :
-                                $img = 'aa_05.png';
+                            case 'empresarial' :
+                                $img = 'administrativo.png';
+                                break;
+						  case 'saude' :
+                                $img = 'saude.png';
+                                break;
+						  case 'engenharia' :
+                                $img = 'engenharia.png';
+                                break;
+						  case 'ambiental' :
+                                $img = 'ambiental.png';
+                                break;
+						  case 'mba-executivo' :
+                                $img = 'excutivo.png';
+                                break;
+						  case 'area-social' :
+                                $img = 'social.png';
                                 break;
                         }
                         ?>
 
-                        <a href="<?php echo get_page_link(get_page_id_by_slug('cursos')) . '?a=' . $area->cdcurso_area ?>"
+                        <a href="<?php echo get_page_link(get_page_id_by_slug('cursos')).$area->area_alias ?>"
                            class="w-col w-col-3">
                             <img class="image-copy img-item-nossos-cursos"
                                  src="<?php echo get_template_directory_uri() ?>/images/<?php echo $img ?>">
@@ -147,7 +162,9 @@
         <div class="w-container">
             <div class="center-container">
                 <h1 class="titulo-fique-ligado titulo-secao"><?php the_field('titulo_sessao_4', get_page_id_by_slug('home')) ?></h1>
-                <?php echo do_shortcode('[logo-carousel id=parceiros]') ?>
+                <?php //echo do_shortcode('[logo_carousel_slider]') ?>
+				<?php echo do_shortcode('[ed-logo id=518]') ?>
+			
             </div>
         </div>
     </div>

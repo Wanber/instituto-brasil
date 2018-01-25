@@ -184,7 +184,7 @@
 
 .img-instituto-pos-brasil {
   width: 20vmax;
-  height: 20vmax;
+  max-height: 20vmax;
   border-radius: 412%;
   text-align: center;
 }

@@ -1,12 +1,13 @@
 <?php get_header(); ?>
-
+<div class="slide-single-top">
+<?php echo do_shortcode('[rev_slider alias="banner_secundario"]') ?></div>
 <?php if (have_posts()) : ?>
 
     <?php while (have_posts()) : the_post(); ?>
 
         <section class="w-container">
 
-            <h3><?php the_title(); ?></h3>
+            <div class="titulo-blog-page">» <?php the_title(); ?></div>
             <p><?php the_content(); ?></p>
 
             <?php
@@ -14,7 +15,7 @@
 
             $the_query = new WP_Query(array(
                 'category_name' => 'blog',
-                'posts_per_page' => 2,
+                'posts_per_page' => 9,
                 'paged' => $paged
             ));
 
@@ -23,12 +24,12 @@
             endwhile;
 
             if ($the_query->max_num_pages > 1) :
-
+                echo ('<div class="btn-blog">');
                 if ($paged > 1) : echo get_previous_posts_link('Página anterior'); endif;
                 if ($paged != $the_query->max_num_pages) :
                     echo get_next_posts_link('Próxima página', $the_query->max_num_pages);
                 endif;
-
+echo ('</div>');
             endif;
 
             wp_reset_postdata();

@@ -1,4 +1,7 @@
 <?php
+/** Enable W3 Total Cache */
+define('WP_CACHE', true); // Added by W3 Total Cache
+
 /**
  * As configurações básicas do WordPress
  *
@@ -21,13 +24,14 @@
 // ** Configurações do MySQL - Você pode pegar estas informações
 // com o serviço de hospedagem ** //
 /** O nome do banco de dados do WordPress */
-define('DB_NAME', 'bd_instituto_br');
+define('FS_METHOD', 'direct');
+define('DB_NAME', 'wp_institutoposbrasil');
 
 /** Usuário do banco de dados MySQL */
 define('DB_USER', 'root');
 
 /** Senha do banco de dados MySQL */
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', '1234');
 
 /** Nome do host do MySQL */
 define('DB_HOST', 'localhost');

@@ -1,0 +1,4 @@
+[15-Dec-2017 12:26:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home3/institutopos/public_html/wp-content/themes/instituto-brasil/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home3/institutopos/public_html/wp-content/themes/instituto-brasil/index.php on line 1

@@ -11,19 +11,17 @@
                     <img src="<?php echo $thumb ?>" class="alignleft"/>
                 </a>
             <?php endif; ?>
-
-            <?php wp_list_categories() ?>
         </div>
 
         <div class="w-col w-col-9">
-            <div><?php echo get_the_date('l, j \d\e F \d\e Y') ?></div>
-            <div itemprop="headline">
+            <div class="blog-data-list"><?php echo get_the_date('l, j \d\e F \d\e Y') ?></div>
+            <div itemprop="headline" class="blog-titulo-list">
                 <a itemscope itemprop="mainEntityOfPage" itemType="https://schema.org/WebPage"
                    href="<?php the_permalink(); ?>">
                     <?php the_title(); ?>
                 </a>
             </div>
-            <div>
+            <div class="blog-resumo-list">
                 <?php echo substr(get_the_excerpt(), 0, 140); ?>
             </div>
         </div>

@@ -1,0 +1,227 @@
+<div class="container">
+  <div class="row" style="margin-bottom: 20px;">
+    <div class="col-md-4">
+      <div class="card-panel grey">
+        <h5 class="center-align grey-text">
+          <i class="fa fa-user"></i><br>
+          INFORMAÇÕES BÁSICAS
+        </h5>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card-panel grey">
+        <h5 class="center-align grey-text">
+          <i class="fa fa-credit-card"></i><br>
+          DADOS FINANCEIROS
+        </h5>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card-panel teal">
+        <h5 class="center-align white-text">
+          <i class="fa fa-print"></i><br>
+          COMPROVANTE INSCRIÇÃO
+        </h5>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <div class="panel panel-info">
+        <div class="panel-heading">Curso Escolhido</div>
+        <div class="table-responsive">
+          <table class="table">
+            <tr>
+              <td align="right" style="width: 10%;">Tipo:</td>
+              <td align="left" style="font-weight: bold;">{{ course.nmtpcurso }}</td>
+              <td align="right" style="width: 10%;">Área:</td>
+              <td align="left" style="font-weight: bold;">{{ course.dscurso_area }}</td>
+            </tr>
+            <tr>
+              <td align="right" style="width: 10%;">Curso:</td>
+              <td align="left" style="font-weight: bold;">{{ course.nmcurso }}</td>
+              <td align="right" style="width: 10%;">Carga Horária:</td>
+              <td align="left" style="font-weight: bold;">{{ course.ch }}h</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <div class="panel panel-info">
+        <div class="panel-heading">Dados do Pessoais</div>
+        <div class="table-responsive">
+          <table class="table">
+            <tr>
+              <td align="right" style="width: 10%;">Nome:</td>
+              <td align="left" style="font-weight: bold;">{{ enrolment.nmcliente }}</td>
+              <td align="right" style="width: 10%;">Email:</td>
+              <td align="left" style="font-weight: bold;">{{ enrolment.email}}</td>
+            </tr>
+
+            <tr>
+              <td align="right" style="width: 10%;">Tel:</td>
+              <td align="left" style="font-weight: bold;">{{ enrolment.telefone1 }}</td>
+              <td align="right" style="width: 10%;">Cel:</td>
+              <td align="left" style="font-weight: bold;">{{ enrolment.telefone2 }}</td>
+            </tr>
+
+            <tr>
+              <td align="right" style="width: 10%;">CPF:</td>
+              <td align="left" style="font-weight: bold;">{{ enrolment.nucpfcnpj }}</td>
+              <td align="right" style="width: 10%;">RG:</td>
+              <td align="left" style="font-weight: bold;">{{ enrolment.nuidentidade }}</td>
+            </tr>
+
+            <tr>
+              <td align="right" style="width: 10%;">Orgão Exp:</td>
+              <td align="left" style="font-weight: bold;">{{ enrolment.orgaoexpedidor }}</td>
+              <td align="right" style="width: 10%;">Data Nasc:</td>
+              <td align="left" style="font-weight: bold;">{{ enrolment.dtnascimento }}</td>
+            </tr>
+
+            <tr>
+              <td align="right" style="width: 10%;">Estado Civil:</td>
+              <td align="left" style="font-weight: bold;" [ngSwitch]="enrolment.cdestado_civil">
+                <span *ngSwitchCase="'S'">Solteiro(a)</span>
+                <span *ngSwitchCase="'C'">Casado(a)</span>
+                <span *ngSwitchCase="'D'">Divorciado(a)</span>
+                <span *ngSwitchCase="'V'">Viúvo(a)</span>
+              </td>
+              <td align="right" style="width: 10%;">Sexo:</td>
+              <td align="left" style="font-weight: bold;" [ngSwitch]="enrolment.sexo">
+                <span *ngSwitchCase="'M'">Masculino</span>
+                <span *ngSwitchCase="'F'">Feminino</span>
+              </td>
+            </tr>
+
+            <tr>
+              <td align="right" style="width: 10%;">Naturalidade:</td>
+              <td align="left" style="font-weight: bold;">{{ naturalidade.nmcidade }}</td>
+              <td align="right" style="width: 10%;">Estado:</td>
+              <td align="left" style="font-weight: bold;">{{ naturalidade.nmestado }}</td>
+            </tr>
+
+            <tr>
+              <td align="right" style="width: 10%;">Nome do pai:</td>
+              <td align="left" style="font-weight: bold;">{{ enrolment.nmpai }}</td>
+              <td align="right" style="width: 10%;">Nome da mãe:</td>
+              <td align="left" style="font-weight: bold;">{{ enrolment.nmmae }}</td>
+            </tr>
+
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <div class="panel panel-info">
+        <div class="panel-heading">Dados Residenciais</div>
+        <div class="table-responsive">
+          <table class="table">
+            <tr>
+              <td align="right" style="width: 10%;">CEP:</td>
+              <td align="left" style="font-weight: bold;">{{ enrolment.cep }}</td>
+              <td align="right" style="width: 10%;">Endereço:</td>
+              <td align="left" style="font-weight: bold;">{{ enrolment.endereco }}, {{ enrolment.numero }}</td>
+            </tr>
+
+            <tr>
+              <td align="right" style="width: 10%;">Complemento:</td>
+              <td align="left" style="font-weight: bold;">{{ enrolment.complemento == null ? '---' : enrolment.complemento }}</td>
+              <td align="right" style="width: 10%;">Bairro:</td>
+              <td align="left" style="font-weight: bold;">{{ enrolment.bairro }}</td>
+            </tr>
+
+            <tr>
+              <td align="right" style="width: 10%;">Cidade:</td>
+              <td align="left" style="font-weight: bold;">{{ citystate.nmcidade }}</td>
+              <td align="right" style="width: 10%;">Estado:</td>
+              <td align="left" style="font-weight: bold;">{{ citystate.nmestado }}</td>
+            </tr>
+
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <div class="panel panel-info">
+        <div class="panel-heading">Formação Escolar</div>
+        <div class="table-responsive">
+          <table class="table">
+
+            <tr>
+              <td align="right" style="width: 8%;">Formação:</td>
+              <td align="left" style="font-weight: bold;">{{ graduation.nmformacaoescolar }}</td>
+              <td align="right" style="width: 15%;">Curso de Graduação:</td>
+              <td align="left" style="font-weight: bold;">{{ enrolment.nmcursograduacao }}</td>
+              <td align="right" style="width: 20%;">Data de colação de grau:</td>
+              <td align="left" style="font-weight: bold;">{{ enrolment.dtcolacaodegrau }}</td>
+            </tr>
+
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <div class="panel panel-info">
+        <div class="panel-heading">Dados Financeiros</div>
+        <div class="table-responsive">
+          <table class="table">
+
+            <tr>
+              <td align="right" style="width: 20%;">Plano pagamento inscrição:</td>
+              <td align="left" style="font-weight: bold;">{{ planeenrolment.parcela }}x {{ planeenrolment.valor | currency:'BRL':true }}</td>
+              <td align="right" style="width: 20%;">Data pagamento inscrição:</td>
+              <td align="left" style="font-weight: bold;" colspan="3">{{ enrolment.dtpagtoinscricao }}</td>
+            </tr>
+
+            <tr>
+              <td align="right" style="width: 20%;">Plano pagamento mensalidade:</td>
+              <td align="left" style="font-weight: bold;">{{ planecourse.parcela }}x {{ planecourse.valor | currency:'BRL':true }}</td>
+              <td align="right" style="width: 20%;">Dia vencimento mensalidade:</td>
+              <td align="left" style="font-weight: bold;">{{ enrolment.diapagamento }}</td>
+              <td align="right" style="width: 20%;">Mês início cobrança:</td>
+              <td align="left" style="font-weight: bold;">{{ enrolment.mesiniciocobranca }}</td>
+            </tr>
+
+            <tr>
+              <td align="right" style="width: 25%;">Plano pagamento material didático:</td>
+              <td align="left" style="font-weight: bold;">
+                {{ enrolment.planomaterial == 0 ? 'Material Online Gratuito' : planematerial.parcela + 'x ' + (planematerial.valor | currency:'BRL':true) }}
+              </td>
+              <td align="right" style="width: 25%;">Data pagamento material didático:</td>
+              <td align="left" style="font-weight: bold;" colspan="3">
+                {{ enrolment.planomaterial == 0 ? '---' : enrolment.dtpagtomaterial }}
+              </td>
+            </tr>
+
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-3">
+      <a routerLink="/step-two" class="btn btn-padrao btn-lg btn-block">Corrigir</a>
+    </div>
+    <div class="col-md-3">
+      <a routerLink="/step-four" class="btn btn-padrao btn-lg btn-block">Confirmar</a>
+    </div>
+  </div>
+
+</div>
+

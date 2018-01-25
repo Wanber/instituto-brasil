@@ -1,0 +1,95 @@
+<div class="container">
+
+    <div class="row" style="margin-bottom: 20px;">
+        <div class="col-md-4">
+            <div class="card-panel grey">
+                <h5 class="center-align grey-text">
+                    <i class="fa fa-user"></i><br>
+                    INFORMAÇÕES BÁSICAS
+                </h5>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card-panel grey">
+                <h5 class="center-align grey-text">
+                    <i class="fa fa-credit-card"></i><br>
+                    DADOS FINANCEIROS
+                </h5>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card-panel teal">
+                <h5 class="center-align white-text">
+                    <i class="fa fa-print"></i><br>
+                    COMPROVANTE INSCRIÇÃO
+                </h5>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+
+            <div class="panel panel-primary">
+                <div class="panel-heading"><i class="fa fa-check-circle"></i> Inscrição cadastrada com sucesso!</div>
+                <div class="panel-body">
+                    <p class="text-justify">Siga as instruções abaixo para efetivar sua matrícula, a confirmação da
+                        matrícula será enviada para o e-mail informado no seu cadastro assim que o pagamento da mesma
+                        for efetuado.</p>
+                    <p class="text-justify">Enviamos para seu e-mail o boleto referente a taxa de inscrição e ou
+                        material didático:</p>
+                    <p class="text-justify">Os próximos passos são:</p>
+                    <ul>
+                        <li>Efetuar o pagamento da taxa de inscrição.</li>
+                        <li>Efetuar o pagamento de sua primeira mensalidade para ter acesso aos materiais didáticos
+                            online para você estudar. Atenção: para a contagem do tempo de duração do curso, será
+                            considerada a data de pagamento de sua primeira mensalidade. Portanto, fique atento caso
+                            deseja acelerar o início do curso!
+                        </li>
+                        <li>Efetuar o pagamento da primeira parcela do material didático (impresso em apostilas), quando
+                            for a opção do aluno.
+                        </li>
+                        <li>Seguir e cumprir os Requisitos Obrigatórios para conclusão do seu curso, que estão
+                            disponíveis no site, caderno informativo enviado via e-mail e no contrato de prestação de
+                            serviços educacionais, que você assinou, onde cita sobre: duração do curso, aprovação em
+                            todas as avaliações e TCC, quitação das mensalidades, entrega das documentações exigidas e
+                            estágio, quando for o caso.
+                        </li>
+                    </ul>
+                </div>
+                <div class="panel-footer">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <a href="#" onclick="alert('O boleto chegará em seu email dentro de algumas horas');"
+                               class="btn btn-padrao btn-block">Boleto taxa de inscrição</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-md-6">
+            <div class="panel panel-primary">
+                <div class="panel-heading"><i class="fa fa-exclamation-circle"></i> Informações importantes!</div>
+                <div class="panel-body">
+                    <p class="text-justify">O prazo para envio dos boletos por e-mail e liberação do acesso ao portal do
+                        aluno é de 5 (cinco) dias úteis.</p>
+                    <p class="text-justify">Gentileza enviar toda a documentação pelos correios. Os documentos exigidos
+                        são:</p>
+                    <ul>
+                        <li *ngFor="let d of document">{{ d.docs }}</li>
+                    </ul>
+                    <p class="text-justify">O endereço para envio da documentação informada acima é:</p>
+                    <p class="text-justify">Avenida Acesita, 655 - Bairro Olaria - Timóteo - MG CEP: 35.180-207.</p>
+                </div>
+                <div class="panel-footer">
+                    <!--a href="http://www.ucamprominaspos.com.br/matricula/?comprovante={{ result.codeEnrolment }}"
+                       target="_blank" class="btn btn-padrao btn-lg btn-block">Imprimir comprovante de inscrição</a-->
+                    <a href="http://www.institutoposbrasil.com.br/matricula/?comprovante={{ result.codeEnrolment }}"
+                       target="_blank" class="btn btn-padrao btn-lg btn-block">Imprimir comprovante de inscrição</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

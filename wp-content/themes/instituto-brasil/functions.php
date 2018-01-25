@@ -21,6 +21,38 @@ add_theme_support('html5', array(
     'caption',
 ));
 
+//criar rotas customizadas
+add_filter('rewrite_rules_array', 'my_insert_rewrite_rules');
+add_filter('query_vars', 'my_insert_query_vars');
+add_action('wp_loaded', 'my_flush_rules');
+// flush_rules() if our rules are not yet included
+function my_flush_rules()
+{
+    $rules = get_option('rewrite_rules');
+
+    if (!isset($rules['(cursos)/(.*)$']) || !isset($rules['(curso)/(.*)$'])) {
+        global $wp_rewrite;
+        $wp_rewrite->flush_rules();
+    }
+}
+
+// Adding a new rule
+function my_insert_rewrite_rules($rules)
+{
+    $newrules = array();
+    $newrules['cursos/(.*)$'] = 'index.php?pagename=cursos&area=$matches[1]';
+    $newrules['curso/(.*)$'] = 'index.php?pagename=curso&curso=$matches[1]';
+    return $newrules + $rules;
+}
+
+// Adding the id var so that WP recognizes it
+function my_insert_query_vars($vars)
+{
+    array_push($vars, 'area');
+    array_push($vars, 'curso');
+    return $vars;
+}
+
 //habilita upload pelo tema
 //include_once ABSPATH . 'wp-admin/includes/media.php';
 //include_once ABSPATH . 'wp-admin/includes/file.php';
@@ -126,18 +158,19 @@ add_action('wp_enqueue_scripts', function () {
     wp_enqueue_style('bootstrap', get_template_directory_uri() . '/libs/bootstrap/css/bootstrap.min.css', false, null, 'all');
     wp_enqueue_style('slick-slider', get_template_directory_uri() . '/libs/slick-1.6.0/slick/slick.css', false, null, 'all');
     wp_enqueue_style('slick-slider-theme', get_template_directory_uri() . '/libs/slick-1.6.0/slick/slick-theme.css', false, null, 'all');
+    wp_enqueue_style('sweetalert', get_template_directory_uri() . '/libs/sweetalert-master/dist/sweetalert.css', false, null, 'all');
     wp_enqueue_style('font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css', false, null, 'all');
-    wp_enqueue_style('font-awesome', '//fonts.googleapis.com/css?family=Open+Sans:300,400,600', false, null, 'all');
     wp_enqueue_style('normalize', get_template_directory_uri() . "/css/normalize.css", false, null, 'all');
     wp_enqueue_style('webflow', get_template_directory_uri() . "/css/webflow.css", false, null, 'all');
     wp_enqueue_style('theme', get_template_directory_uri() . "/css/css.css", false, null, 'all');
-    wp_enqueue_style('webfont', '//ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js', false, null, 'all');
-
-    wp_enqueue_script('jquery');
+    wp_deregister_script('jquery');
+    wp_enqueue_script('jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js', array(), null, false);
+    wp_enqueue_script('webfont-js', '//ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js', array('jquery'), null, true);
     wp_enqueue_script('tether-js', get_template_directory_uri() . '/libs/tether/dist/js/tether.min.js', array(), null, true);
-    wp_enqueue_script('slick-slider-js', get_template_directory_uri() . '/libs/slick-1.6.0/slick/slick.js', array(), null, true);
+    wp_enqueue_script('slick-slider-js', get_template_directory_uri() . '/libs/slick-1.6.0/slick/slick.min.js', array(), null, true);
     wp_enqueue_script('bootstrap-js', get_template_directory_uri() . '/libs/bootstrap/js/bootstrap.min.js', array(), null, true);
-
+    wp_enqueue_script('sweetalert-js', get_template_directory_uri() . '/libs/sweetalert-master/dist/sweetalert.min.js', array('jquery'), null, false);
+    wp_enqueue_script('filterable-js', get_template_directory_uri() . '/libs/sunnywalker-jQuery.FilterTable-8f7979d/jquery.filtertable.min.js', array('jquery'), null, false);
     wp_enqueue_script('theme-js', get_template_directory_uri() . '/js/main.js', array(), null, true);
 });
 
@@ -207,23 +240,44 @@ add_action('wp_head', function ($post_id) {
 
 function api_request($request, $parametros)
 {
-    $api_base_url = '179.188.38.145/ucam/';
+    $api_base_url = '179.188.38.145/unica/';
 
     $url = "http://" . $api_base_url . $request . '/';
 
-    if($request == 'promotions')
-        $url .=  $parametros['cdpromocao'];
-    else if($request == 'courses_disciplines')
-        $url .=  $parametros['cdcurso'];
-    else if($request == 'disciplines')
-        $url .=  $parametros['cddisciplina'];
+    if ($request == 'promotions')
+        $url .= $parametros['cdpromocao'];
+    else if ($request == 'courses_disciplines')
+        $url .= $parametros['cdcurso'];
+    else if ($request == 'disciplines')
+        $url .= $parametros['cddisciplina'];
+    else if ($request == 'enroll_plan')
+        $url .= $parametros['cdtpcurso'];
+    else if ($request == 'courseware_plan')
+        $url .= $parametros['carga_horaria'];
     else
-        $url .=  '?'.http_build_query($parametros, '', '&');
+        $url .= '?' . http_build_query($parametros, '', '&');
 
-    $json = file_get_contents($url);
+    $json = @file_get_contents($url);
     $json_data = json_decode($json, false);
 
     return $json_data->ok ? $json_data->data : false;
+}
+
+function add_newsletter_stefano($email)
+{
+    global $wpdb;
+
+    if (is_email($email)) {
+        $query = "INSERT INTO " . $wpdb->prefix . "newsletter (email, status) VALUES ('" . $email . "', 'C')";
+        $wpdb->get_results($query);
+        if (strstr(strtolower($wpdb->last_error), 'duplicate'))
+            return '-1';
+        else if ($wpdb->last_error == '')
+            return '1';
+        else
+            return '0';
+    } else
+        return '0';
 }
 
 function api_get_curso_area($cdcurso, array $cursos)
@@ -231,6 +285,17 @@ function api_get_curso_area($cdcurso, array $cursos)
     foreach ($cursos as $curso)
         if ($curso->cdcurso_area == $cdcurso)
             return $curso;
+
+    return null;
+}
+
+function api_get_curso_area_by_alias($alias, array $cursos)
+{
+    foreach ($cursos as $curso)
+        if ($curso->area_alias == $alias)
+            return $curso;
+
+    return null;
 }
 
 function api_get_curso_tipo($cdtipo, array $tipos)
@@ -238,6 +303,8 @@ function api_get_curso_tipo($cdtipo, array $tipos)
     foreach ($tipos as $tipo)
         if ($tipo->cdtpcurso == $cdtipo)
             return $tipo;
+
+    return null;
 }
 
 class CSS_Menu_Walker extends Walker
