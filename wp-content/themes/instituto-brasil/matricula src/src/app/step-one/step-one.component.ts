@@ -42,7 +42,16 @@ export class StepOneComponent implements OnInit {
     this.enrolmentService.getBuilder('course_type')
       .list()
       .then((res) => {
-        this.courseType = res || {};
+          // this.courseType = res || {};
+
+          // TEMPORARIO - EXCLUIR SEGUNDA LICENCIATURA E OBTENCAO D ENOV TITUTOLO
+
+          for (let i = 0; i < res.length; i++) {
+              if (res[i].cdtpcurso != '6' && res[i].cdtpcurso != '7') {
+                  this.courseType.push(res[i]);
+              }
+          }
+          // FIM
       });
   }
 
