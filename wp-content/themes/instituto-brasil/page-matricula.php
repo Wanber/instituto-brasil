@@ -233,12 +233,12 @@
                 <br />
                 <br />
 
-                <script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/matricula/inline.152d2e4f72575d2b8cfe.bundle.js"></script>
+                <script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/matricula/inline.daff26d146bece38ab7a.bundle.js"></script>
                 <script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/matricula/polyfills.563dbf3f5c790722ed8b.bundle.js"></script>
                 <script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/matricula/scripts.aa540bb00c59e796a4ec.bundle.js"></script>
                 <script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/matricula/vendor.23af63d619565b58e101.bundle.js"></script>
-                <script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/matricula/main.1fdff63ae7113001f5c6.bundle.js"></script>
-                
+                <script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/matricula/main.544f5534364e54130357.bundle.js"></script>
+
                 <style>
                     #cssmenu ul li span {
                         font-size: 1.24rem;
