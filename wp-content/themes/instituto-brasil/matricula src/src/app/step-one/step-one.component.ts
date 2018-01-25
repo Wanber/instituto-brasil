@@ -12,7 +12,7 @@ import {Router} from '@angular/router';
 
 export class StepOneComponent implements OnInit {
 
-  public courseType: any;
+  public courseType: any = [];
   public courseArea: any;
   public course: any;
   public midias: any;

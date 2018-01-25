@@ -2,15 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="397a390e-8495-4180-86b5-389fd3a32a94" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/dist/index.html" afterPath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/dist/index.html" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/dist/inline.1a7f21f9bc78e91b8d71.bundle.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/dist/main.74320fd20807d73cd02a.bundle.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/dist/favicon.ico" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/dist/fontawesome-webfont.674f50d287a8c48dc19b.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/dist/fontawesome-webfont.912ec66d7572ff821749.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/dist/fontawesome-webfont.af7ae505a9eed503f8b8.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/dist/fontawesome-webfont.b06871f281fee6b241d6.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/dist/fontawesome-webfont.fee66e712a8a08eef580.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/dist/glyphicons-halflings-regular.448c34a56d699c29117a.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/dist/glyphicons-halflings-regular.89889688147bd7575d63.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/dist/glyphicons-halflings-regular.e18bbf611f2a2e43afc0.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/dist/glyphicons-halflings-regular.f4769f9bdb7466be6508.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/dist/glyphicons-halflings-regular.fa2772327f55d8198301.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/dist/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/dist/polyfills.563dbf3f5c790722ed8b.bundle.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/dist/scripts.aa540bb00c59e796a4ec.bundle.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/dist/styles.b75bb6e4e54aa933f9ce.bundle.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/dist/vendor.23af63d619565b58e101.bundle.js" afterPath="" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/src/app/step-one/step-one.component.ts" afterPath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/src/app/step-one/step-one.component.ts" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/index.html" afterPath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/index.html" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/inline.1a7f21f9bc78e91b8d71.bundle.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/main.74320fd20807d73cd02a.bundle.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/page-matricula.php" afterPath="$PROJECT_DIR$/wp-content/themes/instituto-brasil/page-matricula.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,74 +29,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="wp-config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="89" column="24" lean-forward="false" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page-curso.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/instituto-brasil/page-curso.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1485">
-              <caret line="99" column="49" lean-forward="false" selection-start-line="99" selection-start-column="49" selection-end-line="99" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page-cursos.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/instituto-brasil/page-cursos.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="100" lean-forward="false" selection-start-line="27" selection-start-column="100" selection-end-line="27" selection-end-column="100" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="enrolment.service.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/src/app/enrolment.service.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="54" column="82" lean-forward="false" selection-start-line="54" selection-start-column="82" selection-end-line="54" selection-end-column="82" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page-matricula.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="page-matricula.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/instituto-brasil/page-matricula.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
+            <state relative-caret-position="219">
               <caret line="239" column="105" lean-forward="false" selection-start-line="239" selection-start-column="105" selection-end-line="239" selection-end-column="105" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="step-one.component.ts" pinned="false" current-in-tab="false">
+      <file leaf-file-name="step-one.component.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/src/app/step-one/step-one.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="53" column="16" lean-forward="false" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
+            <state relative-caret-position="281">
+              <caret line="51" column="15" lean-forward="true" selection-start-line="51" selection-start-column="15" selection-end-line="51" selection-end-column="15" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/instituto-brasil/functions.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3630">
-              <caret line="242" column="44" lean-forward="false" selection-start-line="242" selection-start-column="44" selection-end-line="242" selection-end-column="44" />
-              <folding>
-                <marker date="1516836244000" expanded="true" signature="9284:9374" ph="INSERT INTO ${$wpdb-&gt;prefix}newsletter... " />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -115,9 +71,9 @@
         <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/page-curso.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/page-cursos.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/src/app/enrolment.service.ts" />
-        <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/src/app/step-one/step-one.component.ts" />
         <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/index.html" />
         <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/page-matricula.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/src/app/step-one/step-one.component.ts" />
       </list>
     </option>
   </component>
@@ -232,12 +188,12 @@
       <option name="presentableId" value="Default" />
       <updated>1516830390984</updated>
       <workItem from="1516830394924" duration="2904000" />
-      <workItem from="1516876466619" duration="1184000" />
+      <workItem from="1516876466619" duration="1479000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4088000" />
+    <option name="totallyTimeSpent" value="4383000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="831" extended-state="0" />
@@ -333,56 +289,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="89" column="24" lean-forward="false" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/instituto-brasil/page-curso.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1485">
-          <caret line="99" column="49" lean-forward="false" selection-start-line="99" selection-start-column="49" selection-end-line="99" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/instituto-brasil/page-cursos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="100" lean-forward="false" selection-start-line="27" selection-start-column="100" selection-end-line="27" selection-end-column="100" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/src/app/enrolment.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="54" column="82" lean-forward="false" selection-start-line="54" selection-start-column="82" selection-end-line="54" selection-end-column="82" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/instituto-brasil/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3630">
-          <caret line="242" column="44" lean-forward="false" selection-start-line="242" selection-start-column="44" selection-end-line="242" selection-end-column="44" />
-          <folding>
-            <marker date="1516836244000" expanded="true" signature="9284:9374" ph="INSERT INTO ${$wpdb-&gt;prefix}newsletter... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/src/app/step-one/step-one.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="53" column="16" lean-forward="false" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -391,10 +297,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/instituto-brasil/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="242" column="44" lean-forward="false" selection-start-line="242" selection-start-column="44" selection-end-line="242" selection-end-column="44" />
+          <folding>
+            <marker date="1516836244000" expanded="true" signature="9284:9374" ph="INSERT INTO ${$wpdb-&gt;prefix}newsletter... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/src/app/enrolment.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="54" column="82" lean-forward="false" selection-start-line="54" selection-start-column="82" selection-end-line="54" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/instituto-brasil/page-cursos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="27" column="100" lean-forward="false" selection-start-line="27" selection-start-column="100" selection-end-line="27" selection-end-column="100" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/instituto-brasil/page-curso.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="99" column="49" lean-forward="false" selection-start-line="99" selection-start-column="49" selection-end-line="99" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="89" column="24" lean-forward="false" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/instituto-brasil/page-matricula.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
+        <state relative-caret-position="219">
           <caret line="239" column="105" lean-forward="false" selection-start-line="239" selection-start-column="105" selection-end-line="239" selection-end-column="105" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/instituto-brasil/matricula src/src/app/step-one/step-one.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="51" column="15" lean-forward="true" selection-start-line="51" selection-start-column="15" selection-end-line="51" selection-end-column="15" />
           <folding />
         </state>
       </provider>
